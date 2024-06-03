@@ -1146,7 +1146,7 @@ $author_id=$post->post_author;
 				</div>
 			</section>	
 
-			<section class="contact_us_sec">
+			<section class="contact_us_sec" id="contactnew">
 				<div class="container">
 					<div class="row">
 					<div class="col-lg-6 col-md-12 col-sm-12 col-12">

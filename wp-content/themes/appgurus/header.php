@@ -175,7 +175,7 @@ if (!is_page_template( 'templates/thankyou-page.php' ))
                                 <li class="nav-item <?php echo ($slug == 'about-app-development-australia')?'active':''; ?>"><a href="<?php echo esc_url( home_url( 'about-app-development-australia/' ) ); ?>">About Us</a></li>
                                 <li class="nav-item <?php echo ($slug == 'portfolio-app-development-company-australia')?'active':''; ?>"><a href="<?php echo esc_url( home_url( 'portfolio-app-development-company-australia/' ) ); ?>">Portfolio </a></li>
                                 <li class="nav-item <?php echo ($slug == 'app-development-and-app-marketing-tips')?'active':''; ?>"><a href="<?php echo esc_url( home_url( 'app-development-and-app-marketing-tips/' ) ); ?>">Blogs</a></li>
-                                <li class="nav-item <?php echo ($slug == 'free-consultation')?'active':''; ?>"><a href="#contactnew">Contact Us</a></li>
+                                <li class="nav-item <?php echo ($slug == 'free-consultation')?'active':''; ?>"><a href="" data-scroll-to="#contactnew">Contact Us</a></li>
                               </ul>
 
                               <div class="header-btn-main">

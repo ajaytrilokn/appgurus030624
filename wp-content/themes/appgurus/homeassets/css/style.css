@@ -3,7 +3,7 @@
 /* 01 : Website Global CSS BOF
 ========================================================== */
 
-body,html {height: 100%; }
+body,html {height: 100%; scroll-behavior: smooth; }
 body { background:#fff;font-family: 'Manrope', sans-serif; font-weight:normal; font-size:16px; line-height:normal; color:#030303;  text-transform: none;} 
 *, html { margin:0; padding:0;  }
 a { color:#4D4D4D; display: inline-block;} /* Common color hyperlink */

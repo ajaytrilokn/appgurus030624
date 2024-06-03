@@ -160,10 +160,6 @@ $(document).ready(function() {
 
 
 
-
-
-
-
     // scroll hide and show
 
     $('.navbar-nav li a').on('click', function() {
@@ -228,5 +224,21 @@ $(document).ready(function() {
 
 });
 
+// Smoothly Scroll to contact form and hide the id
+
+jQuery(document).ready(function($) {
+    $('a[data-scroll-to]').on('click', function(event) {
+        var target = $(this).data('scroll-to');
+        if (target !== '') {
+            event.preventDefault(); // Prevent the default behavior of the anchor tag
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 2000, function() {
+                // After scrolling, update the URL with a blank hash using history.pushState
+                history.pushState(null, null, ' ');
+            });
+        }
+    });
+});
 
 
