@@ -1216,6 +1216,7 @@ $author_id=$post->post_author;
 					</div>
 				</div>
 			</section>
+			
 			<!-- Content End -->
 		</div>
 
