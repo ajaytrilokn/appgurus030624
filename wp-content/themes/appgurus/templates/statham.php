@@ -1,6 +1,7 @@
 <?php
 /*
-Template Name:Statham Template
+Template Name:Statham Template  
+If you want to call another headaer or footer than just make different name files and call into header('') function so it will call in only that template page
 */
 get_header();
 ?>
