@@ -5,6 +5,7 @@ Template Name:Home Page Update
 
 get_header();
 $author_id=$post->post_author;
+// This is comment is for testing branch change
 ?>
 			<!-- Content Start -->
 
