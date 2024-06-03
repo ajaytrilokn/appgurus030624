@@ -1,0 +1,638 @@
+
+/*=========================================================
+Large devices (desktops, less than 1200px)
+===========================================================*/
+@media (max-width: 1799px) { 
+
+.strategy-main .strategy-right .strategy-img {width: 445px; height: 445px; }
+
+}
+
+
+
+
+@media (max-width: 1599px) {
+
+.btn {padding: 12px 15px; }
+
+p.all-projects {font-size: 140px; right: -270px; bottom: -200px; }
+
+.strategy-main .strategy-right .strategy-img {width: 400px; height: 400px; }
+.strategy-inner .strategy-left-content h2 {margin-bottom: 15px; }
+.strategy-inner .strategy-left-content h6 {margin-bottom: 10px; }
+.strategy-box-wrap {margin-top: 45px; }
+
+.services-tech-points ul li {padding-left: 26px; margin-bottom: 6px; font-size: 22px; margin-left: 24px; }
+.services-tech-points ul li::before {width: 10px; height: 10px; top: 12px; }
+.blog-box .blog-bottom-sec .blog-title-text {font-size: 24px;}
+.blog-box .blog-bottom-sec .author-sec .author {padding: 0 15px; font-size: 16px; }
+.blog-box .blog-bottom-sec .author-sec {margin: 0 -15px; }
+.blog-box .blog-bottom-sec .author-sec .author span {margin-left: 6px; }
+.blog-box .blog-bottom-sec .blog-details-text p {font-size: 16px; line-height: 26px; }
+
+.type-of-projects-sec .projects-sec-inner {padding-left: calc((100% - 1060px) / 2 );}
+.type-of-projects-sec .projects-sec-inner .projects-details { width: 70%; padding-left: 15px;}
+.type-of-projects-sec .projects-sec-inner .projects-title h2 {font-size: 45px;}
+
+
+}
+
+@media (max-width: 1499px) { 
+
+.strategy-main .strategy-right .strategy-img {width: 380px; height: 380px; }
+
+}
+
+
+@media (max-width: 1399px) { 
+p.all-projects {font-size: 98px; right: -215px; bottom: 30px; }
+.banner-img{height: 600px;}
+
+.strategy-main .strategy-right .strategy-img {width: 350px; height: 350px; }
+
+
+}
+
+@media (max-width: 1350px) { 
+
+.strategy-inner .strategy-left-content {padding-right: 60px; }
+.strategy-main .strategy-left {width: calc(100% - 380px); }
+.strategy-main .strategy-right {width: 380px; }
+.strategy-main .strategy-right .strategy-img:before {top: -50px; left: -40px; height: 90%; }
+
+
+}
+
+
+@media (min-width: 1200px) {
+  
+
+}
+
+
+@media (max-width: 1299px) { 
+
+.header-main .header-menu .header-menu-inner ul.navbar-nav > li.nav-item > a {padding: 45px 20px; }
+.header-main .header-inner .header-right {padding-left: 45px; }
+.header-main.sticky .header-menu .header-menu-inner ul.navbar-nav > li.nav-item > a {padding: 45px 15px; }
+.header-btn .btn {min-width: 150px; padding: 13px 15px; }
+
+.banner-img{height: 500px;}
+ul.wwd-type li {padding-left: 20px; font-size: 25px; line-height: 45px; }
+.wwd-bottom-right .counter-box h2 {font-size: 60px; line-height: 60px; }
+.process-link a {font-size: 24px; }
+.section-back-title h2 {font-size: 100px; }
+.testimonial-sec .section-title {padding-bottom: 60px; }
+.prototype-box-wrap .prototype-box {padding-top: 70px; }
+.why-choose-aapgurus-content ul li {font-size: 25px; line-height: 36px; margin-top: 40px; padding-left: 55px; }
+
+
+.accordian .accordian-title h5 {font-size: 26px; line-height: 35px; }
+.accordian .accordian-text p {font-size: 24px; line-height: 35px; }
+
+.career-sec .carrer-site a {font-size: 30px;}
+.job-sec .job-sec-rows {margin-bottom: 100px; }
+
+
+.process-sec-rows .process-left .process-inner-left h2 {font-size: 60px; }
+.process-inner-left .circle-and-line .circle {left: 26px; }
+.process-inner-left .circle-and-line .line {left: 39px; }
+
+
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1270px){
+
+.container {max-width: 1080px; }
+.type-of-projects-sec .projects-sec-inner {padding-left: calc((100% - 1050px) / 2 ); }
+.portfolio-sec .portfolio-sec-inner { padding-right: calc((100% - 1050px) / 2 );}
+.portfolio-sec .portfolio-sec-inner:nth-child(even) {  padding-left: calc((100% - 1050px) / 2 );}
+.portfolio-sec .portfolio-img-wrap {max-height: unset; }
+
+
+
+} 
+
+
+@media (max-width: 1199.98px) { 
+
+
+h1 { font-size:45px; font-weight: bold; }
+h2 { font-size:42px; font-weight: bold; line-height: 50px;}
+h3 { font-size:38px; font-weight: bold; line-height: 50px;}
+h4 { font-size:30px; font-weight: 500; line-height: 40px; }
+h5 { font-size:25px; line-height: 35px;} 	
+h6 { font-size:22px; }
+
+
+p { line-height:28px; font-size: 18px;}
+
+/*============== Home page CSS BOF ================*/   
+
+.padding-tb {padding-top: 70px; padding-bottom: 70px; }
+
+
+.header-main .container {max-width: 100%; }
+
+.call-us-main .call-us-inner > ul > li > a, .call-us-main .call-us-inner > ul > li > button{padding: 10px 15px; }
+.call-us-main {transform: rotate(-90deg) translateY(-208px); }
+.header-main .header-menu .header-menu-inner ul.navbar-nav > li.nav-item > a {padding: 35px 13px; }
+.header-main.sticky .header-menu .header-menu-inner ul.navbar-nav > li.nav-item > a {padding: 35px 10px; } 
+.banner-img {height: 450px; }
+.trusted-clients-sec .clients-top .clients-top-left {width: 320px; }
+.trusted-clients-sec .clients-top .clients-top-right {width: calc(100% - 320px); }
+.clients-logo-main .clients-logo-inner {padding-top: 35px; }
+.clients-logo-main .clients-logo-inner .client-logo-wrap {width: calc(25% - 30px); margin: 30px 15px; }
+
+.what-we-do-inner .what-we-do-top .what-we-do-top-left {width: 270px; }
+.what-we-do-inner .what-we-do-top .what-we-do-top-right {width: calc(100% - 270px); padding-left: 30px; }
+.testimonial-text p {font-size: 18px; line-height: 27px; margin: 15px 0; }
+.section-back-title h2 {font-size: 86px; }
+.section-back-title {top: 50px; }
+.banner-sec-content {max-width: 745px; } 
+.prototype-box-wrap .prototype-box .prototype-icon img {width: 90px; height: 90px; object-fit: contain; }
+.portfolio-sec .portfolio-img-wrap {max-height: unset; }
+
+.faq-section {margin-bottom: 100px; }
+/*============== Home page CSS EOF ================*/   
+.career-sec .carrer-site a {font-size: 25px;}
+.apply-now-job a {font-size: 22px; }
+.job-sec .skills-name {padding-right: 50px; }
+.strategy-box-wrap {margin-top: 50px; margin: 50px -10px 0; }
+.strategy-box-wrap .strategy-box {width: calc(50% - 20px); margin: 10px; padding: 15px; min-height: 130px; }
+.strategy-box-wrap .strategy-box h6 {font-size: 18px; line-height: 28px; }
+.strategy-right .strategy-right-content {position: relative; left: 0;}
+
+
+/*============== APP IDEA page CSS  ================*/   
+.app-getting-started-sec .Industry-points { margin-top: 40px; }
+/*============== APP IDEA page CSS EOF ================*/
+
+.about-us-section.padding-tb {padding-top: 20px; }
+.process-sec-rows .process-right {padding-left: 40px; padding-bottom: 45px; }
+.process-sec.padding-tb {padding-top: 0; }
+.services-tech-points ul li {font-size: 18px; }
+
+.blog-points-sec ol {font-size: 30px; padding-left: 34px;}
+/*.blog-points-sec ol li .points-inner-text {margin-left: -38px; }*/
+
+.blog-box .blog-bottom-sec .author-sec .author {font-size: 14px; }
+
+
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+.container {max-width: 910px; }
+.type-of-projects-sec .projects-sec-inner {padding-left: calc((100% - 880px) / 2 ); }
+.portfolio-sec .portfolio-sec-inner { padding-right: calc((100% - 880px) / 2 );}
+.portfolio-sec .portfolio-sec-inner:nth-child(even) {  padding-left: calc((100% - 880px) / 2 );}
+.portfolio-sec .portfolio-text-wrap {width: 500px; }
+.portfolio-sec .portfolio-img-wrap {width: calc(100% - 500px); }
+
+
+} 
+
+
+
+
+
+@media (min-width: 992px) { 
+
+.hedear-call-us{ display: none; }
+
+}
+
+
+/*=========================================================
+// Medium devices (tablets, less than 992px)
+===========================================================*/
+
+@media (max-width: 991.98px) { 
+
+
+h1 { font-size:42px; font-weight: bold; }
+h2 { font-size:38px; font-weight: bold; line-height: 45px;}
+h3 { font-size:34px; font-weight: bold; line-height: 43px;}
+h4 { font-size:26px; font-weight: 500; line-height: 35px; }
+h5 { font-size:22px; line-height: 30px;} 	
+h6 { font-size:20px; }
+
+
+
+.header-main .container {max-width: 100%; }
+
+.header-main .header-menu .header-menu-inner {display: inline-block; width: 100%; }
+.header-main .header-inner .header-right {-webkit-box-pack: end!important; -ms-flex-pack: end!important; justify-content: flex-end!important; width: calc(100% - 155px); }
+.header-main .header-left {width: 155px; }
+.header-main .navbar {padding: 10px 0; }
+.header-main .header-inner .header-right .header-menu {left: 0px; right:0px; background: #fff; top: 68px; height: calc(100vh - 68px); overflow: auto; display: flex !important; flex-wrap: wrap; align-items: center; visibility: hidden; opacity: 0; position: fixed; z-index: 9999; text-align: left; padding: 30px 0px; overflow-x: auto; -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; }
+.header-main .header-inner .header-right .header-menu.show {visibility: visible; opacity: 1; top: 68px; -webkit-transform: translateX(0%); -moz-transform: translateX(0%); -ms-transform: translateX(0%); -o-transform: translateX(0%); transform: translateX(0%); }
+.header-main.sticky .header-menu .header-menu-inner ul.navbar-nav > li.nav-item > a, .header-main .header-menu .header-menu-inner ul.navbar-nav > li.nav-item > a {padding: 3px 15px; display: inline-block; font-size: 40px; font-weight: 600; }
+.header-main .header-inner .header-right .header-menu ul.navbar-nav {width: 100%; padding: 30px 0; }
+.header-main .header-inner .header-right .header-btn {padding: 15px 15px 45px; text-align: left; width: 100%; }
+
+/*.call-us-main {display: none; }*/
+
+.footer-bottom {padding: 20px 0 55px; }
+
+.call-us-main {transform: none;top: unset;left: 0;right: 0;bottom: -5px;}
+.call-us-main .call-us-inner ul li.call-us-text {transform: none;top: -30px;width: auto;}
+.call-us-main .call-us-inner > ul > li {width: 50%; }
+.call-us-main .call-us-inner ul {width: 100%; }
+.call-us-main .call-us-inner > ul > li > a, .call-us-main .call-us-inner > ul > li > button{min-width: auto; width: 100%; }
+
+.header-menu .hedear-call-us {width: 100%; }
+.header-menu .hedear-call-us li {width: 100%; padding: 5px 15px; }
+.header-menu .hedear-call-us ul {display: inline-block; width: 100%; }
+.header-menu .hedear-call-us li a.btn {min-width: 180px; font-size: 14px; padding: 10px; }
+.header-menu .hedear-call-us li a.btn:after {display: none; }
+
+.header-main .header-inner .header-right .header-btn .btn {padding: 0; color: #f05d27; background: transparent; min-width: auto; font-size: 40px; font-weight: 600; }
+.header-main .header-inner .header-right .header-btn .btn:after {display: none; }
+.header-main .header-inner .header-right .header-btn .btn::before {display: none; } 
+
+
+.header-main .header-right button.navbar-toggler {
+    background: transparent !important;
+}
+
+
+
+
+
+
+/*.page-wrapper {padding-top: 68px; }*/
+.banner-sec-content {padding: 90px 0 80px; }
+.banner-img {height: 400px; }
+.trusted-clients-sec .clients-top {display: inline-block; width: 100%; }
+.trusted-clients-sec .clients-top .clients-top-left {width: 100%; margin-bottom: 20px; }
+.trusted-clients-sec .clients-top .clients-top-right {width: 100%; padding-left: 0; }
+.what-we-do-inner .what-we-do-top {display: inline-block; width: 100%; }
+.what-we-do-inner .what-we-do-top .what-we-do-top-left {width: 100%; margin-bottom: 20px; }
+.what-we-do-inner .what-we-do-top .what-we-do-top-right {width: 100%; padding-left: 0; }
+.what-we-do-text.padding-tb {padding: 50px 0; }
+
+.counter-main {margin-top: 50px; }
+.counter-main .counter-box { display: inline-block; text-align: left !important; }
+.wwd-bottom-right .counter-box:first-child {margin-bottom: 0; margin-right: 50px; }
+.type-of-projects-sec .projects-sec-inner {padding-left: calc((100% - 690px) / 2 ); flex-wrap: wrap; }
+.type-of-projects-sec .projects-sec-inner .projects-title {width: 100%; margin-bottom: 40px; }
+.type-of-projects-sec .projects-sec-inner .projects-title h2 br {display: none; }
+.type-of-projects-sec .projects-sec-inner .projects-details {width: 100%; padding-left: 0px; }
+.project-box .project-img {height: 220px; margin-bottom: 15px; }
+.project-name h6 {font-size: 20px; }
+.section-back-title {top: 120px; }
+.section-back-title h2 {font-size: 75px; }
+.prototype-box-wrap .prototype-box .prototype-icon img {width: 70px; height: 70px; object-fit: contain; }
+
+
+.testimonial-wrap .testimonial-inner .testimonial-content {padding-left: 40px; }
+.testimonial-img:after {font-size: 24px; top: -25px; right: -15px; height: 55px; width: 55px; line-height: 55px; }
+.prototype-box-wrap .prototype-box {padding-top: 50px; }
+.prototype-box-wrap .prototype-box .prototype-icon {width: 100px; }
+.prototype-box-wrap .prototype-box .prototype-content {width: calc(100% - 100px); padding-left: 30px; }
+
+.why-choose-aapgurus-content {padding-top: 0; }
+
+.get-in-touch-sec .section-title h2 span {margin-top: 10px; display: inline-block; width: 100%; font-size: 33px; }
+.process-link {text-align: left !important; }
+
+.accordian .accordian-title h5 {font-size: 24px; line-height: 34px; }
+.accordian .accordian-text p {font-size: 20px; line-height: 28px; }
+.faq-section {margin-bottom: 80px; }
+
+.contact-us .contact-us-inner .email-link-main a {font-size: 20px; }
+.contact-us-inner .form-main button.btn {font-size: 19px; margin: 16px 0; padding: 10px 15px; }
+.contact-us-inner .form-main form h6 {font-size: 16px; }
+.contact-us-inner .form-main form .form-title {margin-bottom: 18px; }
+.contact-us-inner .form-main .form-control {font-size: 16px; padding: 5px 15px 5px 0px; height: 40px; line-height: 45px; }
+.contact-us-inner .form-main textarea.form-control {height: 90px; }
+
+.portfolio-sec .portfolio-sec-inner {padding-right: 0;}
+.portfolio-sec .portfolio-sec-inner:nth-child(even) {padding-left: 0; }
+.portfolio-sec .portfolio-img-wrap {width: 45%; min-height: 300px; }
+.portfolio-sec .portfolio-text-wrap {width: 55%; }
+.portfolio-sec .portfolio-text {padding: 10px 25px 10px; }
+.portfolio-sec .portfolio-sec-inner:nth-child(even) .portfolio-text {padding: 10px 25px 10px; }
+.portfolio-sec .portfolio-text .portfolio-text-inner h5 {margin: 20px 0 30px; }
+p.all-projects {font-size: 85px; right: -170px; bottom: 43px; }
+
+
+.footer-main {padding-top: 70px; }
+.footer-top {padding: 50px 0 20px; text-align: center; }
+.footer-top .clutch-content.text-right {text-align: center !important; margin-top: 30px; }
+.footer-top .clutch-content p {margin-top: 25px; }
+
+.career-sec .carrer-site a {font-size: 22px;}
+.career-sec .carrer-site {margin-top: 35px; }
+.job-sec .skills-name {padding-right: 40px; }
+.apply-now-job a {font-size: 20px; }
+.job-sec .job-sec-rows {margin-bottom: 70px; }
+.job-sec .job-sec-text {margin: 65px 0px 24px 0px; }
+.job-sec .skills-detais {margin-bottom: 30px; }
+.job-sec .job-sec-text-without-icon {margin: 0px 0px 24px 0px; }
+
+.audience-right-wrap h2 {margin: 15px 0 25px; }
+.strategy-main {flex-direction: column-reverse; }
+.strategy-main .strategy-left {width: 100%; margin-top: 40px; }
+.strategy-main .strategy-right .strategy-img {width: 300px; height: 300px; margin-left: 0; }
+.strategy-main .strategy-right {width: 100%; padding-left: 30px; }
+.strategy-inner .strategy-left-content {padding-right: 0px; }
+.strategy-right .strategy-right-content {position: relative; left: 0; top: 0; }
+.app-getting-started-mian .app-getting-started-rows .row {flex-direction: column-reverse; }
+.app-getting-started-mian .app-getting-started-rows .app-getting-started-right {height: 415px; max-width: 370px; margin-bottom: 28px; }
+.app-getting-started-mian .app-getting-started-rows .app-getting-started-left {padding-right: 0; }
+.app-getting-started-mian .app-getting-started-rows {margin-bottom: 55px; }
+.app-getting-started-mian .app-getting-started-rows:nth-child(even) .app-getting-started-left {padding-left: 0;}
+.app-getting-started-sec.padding-tb {padding: 30px 0; }
+.app-getting-started-mian .app-getting-started-rows:nth-child(even) .row {flex-direction: column-reverse; }
+
+/************ APP IDEA PAGE ************/
+
+.have-an-app-idea-sec .app-idea-right { margin-top: 10px; }
+.app-getting-started-sec .Industry-points { margin-top: 30px; }
+.app-getting-started-sec .Industry-points li { padding: 0px 0px 15px 40px;}
+.banner-btn .btn {min-width: 220px; }
+
+/************ APP IDEA PAGE ************/
+
+.about-us-inner-sec:nth-child(even) {margin: 50px 0; }
+.about-us-title h2 {margin-bottom: 15px; }
+
+.blog-box .blog-bottom-sec .author-sec {margin: 0; display: block; }
+.blog-box .blog-bottom-sec .author-sec .author {padding: 0; font-size: 16px; margin-bottom: 10px; }
+.blog-box .blog-bottom-sec .blog-title-text {font-size: 22px; margin-bottom: 24px; }
+.blog-box .blog-bottom-sec .blog-details-text {padding: 10px 0 20px; }
+
+.blog-points-sec ol {font-size: 26px; line-height: 35px; padding-left: 32px;}
+.blog-points-sec ol li {margin-bottom: 20px; }
+.blog-details-sec .bd-text p {margin-bottom: 10px; }
+/*.blog-points-sec ol li .points-inner-text {margin-left: -30px; }*/
+
+.job-sec .skills-detais.dots-point .skills-name:after {
+    left: 1px;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+.job-sec .skills-detais.dots-point .skills-name {
+    padding-left: 25px;
+}
+
+
+}
+
+
+
+
+/*=========================================================
+// Small devices (landscape phones, less than 768px)
+===========================================================*/
+
+
+
+@media (min-width: 768px) { 
+
+
+}
+
+@media (max-width: 767.98px) {  
+
+.btn {padding: 11px 15px; }
+
+h1 { font-size:36px; font-weight: bold; }
+h2 { font-size:33px; font-weight: bold; line-height: 45px;}
+h3 { font-size:30px; font-weight: bold;line-height: 40px;}
+h4 { font-size:23px; font-weight: 500; line-height: 35px; }
+h5 { font-size:20px; line-height: 30px;} 	
+h6 { font-size:18px; }
+
+p { line-height:28px; font-size: 16px;}
+
+
+.banner-img {height: 280px; }
+.banner-sec-content h5.text {margin-bottom: 15px; }
+
+.testimonial-wrap .testimonial-inner {flex-direction: column; }
+.testimonial-wrap .testimonial-inner .testimonial-img {width: 100%; }
+.testimonial-img:after {font-size: 22px; top: -30px; right: 10px; }
+.testimonial-wrap .testimonial-inner .testimonial-content {padding-left: 0; width: 100%; margin-top: 20px; text-align: center; }
+.testimonial-text p {font-size: 16px; line-height: 28px; }
+.inves-with-prototye-sec .section-title h2 br {display: none; }
+.prototype-box-wrap .prototype-box {flex-direction: column; }
+.prototype-box-wrap .prototype-box .prototype-content {padding-left: 0; width: 100%; padding-top: 20px; }
+.why-choose-aapgurus-content ul li {font-size: 20px; line-height: 30px; margin-top: 35px; padding-left: 35px; }
+.why-choose-aapgurus-content ul li:after {height: 18px; width: 22px; }
+
+.type-of-projects-sec .projects-sec-inner {padding-left: 15px; }
+.clients-logo-main .clients-logo-inner .client-logo-wrap {width: calc(33.33% - 30px); margin: 30px 15px; }
+ul.wwd-type li {padding-left: 20px; font-size: 20px; line-height: 40px; }
+.wwd-bottom-right .counter-box h2 {font-size: 50px; line-height: 50px; }
+.process-link {padding-top: 40px; }
+.testimonial-img .person-img {height: 250px;}
+.testimonial-wrap .testimonial-inner .testimonial-img {max-width: 335px; margin: 0 auto; }
+
+.footer-bottom .row {flex-direction: column-reverse; text-align: center; }
+.social-link-main.text-right {text-align: center !important; margin-bottom: 10px; }
+.footer-main {padding-top: 55px; }
+.footer-top {padding: 40px 0 20px; }
+
+
+.accordian .accordian-title h5 {font-size: 20px; line-height: 30px; padding-right: 30px;}
+.accordian .accordian-text p {font-size: 18px; line-height: 28px; padding-bottom: 20px; }
+.accordian .accordian-title {padding: 20px 25px; }
+.accordian .accordian-title.active {padding-bottom: 15px; }
+.accordian .accordian-text {padding: 0 25px; }
+.accordian {margin-bottom: 35px; }
+.faq-section {margin-bottom: 60px; }
+.contact-us {width: 100%; }
+.contact-us-close a {width: 30px; height: 30px; }
+.contact-us-close a .close-icon:first-child {top: 12px; left: 6px; }
+.contact-us-close a .close-icon:last-child {top: 12px; right: 5px; }
+.contact-us-close a .close-icon {width: 15px; }
+.contact-us .contact-us-inner .contact-us-close {top: 32px; right: 15px; }
+
+.portfolio-sec .portfolio-sec-inner {flex-direction: column; padding: 0 15px;margin-bottom: 70px; }
+.portfolio-sec .portfolio-img-wrap {width: 100%; height: 300px; }
+/*.portfolio-sec .portfolio-img {box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);}*/
+.portfolio-sec .portfolio-text-wrap {width: 100%; }
+.portfolio-sec .portfolio-text {padding: 30px 0 0; text-align: left; max-width: 510px ; margin:0 auto; }
+.portfolio-sec .portfolio-sec-inner:nth-child(even) {flex-direction: column; padding: 0 15px; }
+.portfolio-sec .portfolio-sec-inner:nth-child(even) .portfolio-text {padding: 30px 0 0; }
+p.all-projects {font-size: 59px; right: -122px; bottom: 149px; }
+
+
+.job-sec .job-sec-inner-right {padding-left: 0px; }
+.job-sec .job-sec-text {margin: 5px 0px 24px 0px; }
+.job-skills-link {margin-bottom: 25px; }
+.job-sec .skills-detais {margin-bottom: 20px; }
+.job-sec .job-sec-rows {margin-bottom: 60px; }
+
+.audience-right-wrap h2 {margin: 5px 0 15px; }
+.strategy-main .strategy-right .strategy-img:before {top: -30px; left: -30px; }
+.strategy-main .strategy-left {margin-top: 30px; }
+.strategy-inner .strategy-left-content h6 {margin-bottom: 10px; }
+.strategy-inner .strategy-left-content h2 {margin-bottom: 15px; }
+.strategy-box-wrap {margin-top: 30px; }
+
+.banner-sec-content h5.br-rs-none br {display: none; }
+.process-sec-rows .process-left .process-inner-left h2 {font-size: 50px; }
+.process-inner-left .circle-and-line .circle {left: 20px; height: 22px; width: 22px; }
+.process-inner-left .circle-and-line .line {left: 31px; top: 97px; }
+.process-sec-rows .process-right {padding-left: 15px; padding-bottom: 30px; }
+.process-inner-left .circle-and-line .circle:after {height: 12px; width: 12px; }
+
+.blog-points-sec ol {font-size: 23px; line-height: 35px; padding-left: 28px;}
+/*.blog-points-sec ol li .points-inner-text {margin-left: -26px; }*/
+.blog-details-sec .author-share-sec {padding: 20px 0; display: block;}
+.blog-details-sec .author-sec {margin: 0 -8px 20px; }
+.share-icon-list {left: 0; right: unset; }
+
+.header-main.sticky .header-menu .header-menu-inner ul.navbar-nav > li.nav-item > a, .header-main .header-menu .header-menu-inner ul.navbar-nav > li.nav-item > a {padding: 8px 15px; font-size: 26px; }
+.type-of-projects-sec .projects-sec-inner .project-name br {display: none; }
+
+.job-sec .skills-detais.dots-point .skills-name:after {top: 12px; }
+
+
+}
+
+
+
+
+/*=========================================================
+Extra small devices (portrait phones, less than 576px)
+===========================================================*/
+
+
+@media (min-width: 576px) { 
+ 
+}
+
+@media (max-width: 575.98px) { 
+
+h1 { font-size:33px; font-weight: bold; }
+h2 { font-size:27px; font-weight: bold; line-height: 37px;}
+h3 { font-size:24px; font-weight: bold;line-height: 35px;}
+h4 { font-size:20px; font-weight: 500; line-height: 28px; }
+h5 { font-size:18px; line-height: 28px;} 	
+h6 { font-size:16px; }
+
+
+
+.padding-tb {padding-top: 60px; padding-bottom: 60px; }
+
+
+.banner-sec-content h2 {margin-bottom: 20px; line-height: 40px; font-size: 35px;}
+
+.banner-sec-content .sub-text{ margin-bottom: 10px }
+
+.banner-sec-content {padding: 70px 0 60px; }
+.banner-img {height: 230px; }
+.clients-logo-main .clients-logo-inner {padding-top: 25px; }
+.clients-logo-main .clients-logo-inner .client-logo-wrap {width: calc(50% - 50px); margin: 20px 25px; }
+.trusted-clients-sec.padding-tb {padding-bottom: 40px; }
+ul.wwd-type li {padding-left: 15px; font-size: 16px; line-height: 35px; }
+.counter-main {margin-top: 30px; display: flex;}
+
+.wwd-bottom-right .counter-box:first-child {margin-bottom: 15px; margin-right: 25px; }
+.wwd-bottom-right .counter-box h2 {font-size: 45px; line-height: 45px; }
+.process-link {padding-top: 25px; }
+.process-link a {font-size: 20px; }
+.type-of-projects-sec .projects-sec-inner .projects-details {display: inline-block; width: 100%; }
+.type-of-projects-sec .projects-sec-inner .projects-details .project-box {width: 100%; margin-bottom: 29px; }
+.type-of-projects-sec .projects-sec-inner .projects-details .project-box:last-child {margin-bottom: 0; }
+.testimonial-sec .section-title {padding-bottom: 40px; }
+.section-back-title h2 {font-size: 52px; }
+.section-back-title {top: 105px; }
+.testimonial-sec:before {left: 0; }
+.testimonial-text p {font-size: 14px; line-height: 24px; }
+.why-choose-aapgurus-content ul li {font-size: 16px; line-height: 26px; margin-top: 30px; padding-left: 30px; }
+.get-in-touch-sec .section-title h2 span {font-size: 22px; }
+.prototype-box-wrap .prototype-box .prototype-content {max-width: 320px; }
+.trusted-clients-sec .clients-top .clients-top-right .content-text {max-width: 335px; }
+.inves-with-prototye-sec .section-title {max-width: 300px; }
+.inves-with-prototye-sec .prototype-box-wrap {max-width: 320px; }
+.what-we-do-inner .what-we-do-top, .what-we-do-inner .what-we-do-text {max-width: 330px; }
+.why-choose-aapgurus-sec .section-title {max-width: 310px; text-align: left !important; }
+.why-choose-aapgurus-sec .why-choose-aapgurus-content {max-width: 310px; }
+.footer-top .address address {font-size: 15px; }
+.footer-top .contact ul li a {font-size: 18px; line-height: 25px; margin-bottom: 3px; }
+.footer-top {padding: 30px 0 20px; }
+
+.portfolio-sec .portfolio-img-wrap {height: 230px; min-height: auto; }
+.portfolio-sec .portfolio-text a.site-name { font-size: 15px; margin: 5px 0;}
+.portfolio-sec .portfolio-text .app-btn a {width: 135px; height: 40px; border-radius: 5px; margin: 3px; }
+
+.career-sec .carrer-site {margin-top: 25px; }
+.apply-now-job a {font-size: 14px; }
+.job-skills-link h4 {font-size: 18px; }
+.job-sec .job-sec-rows {margin-bottom: 50px; }
+.job-sec .skills-name {padding-right: 25px; }
+.app-getting-started-left .app-getting-started-text p {margin-bottom: 15px; }
+
+/*****************  APP IDEA page *******************/
+.banner-btn .btn {min-width: 200px; }
+.app-getting-started-sec .Industry-points { margin-top: 30px; }
+.app-getting-started-sec .Industry-points li { padding: 0px 0px 10px 35px; font-size: 18px; }
+.app-getting-started-mian .app-getting-started-rows { margin-bottom: 55px; }
+
+/*****************  EOF APP IDEA page *******************/
+
+.process-sec-rows .process-left {width: 70px; }
+.process-sec-rows .process-right {padding-left: 5px; padding-bottom: 20px; width: calc(100% - 70px); }
+.process-sec-rows .process-left .process-inner-left h2 {font-size: 40px; line-height: 50px; }
+.process-sec-rows .process-right h3 {margin-bottom: 10px; }
+.process-inner-left .circle-and-line .circle {left: 14px; top: 55px; }
+.process-inner-left .circle-and-line .line {left: 25px; top: 76px; }
+
+.services-tech-points ul li::before {width: 8px; height: 8px; top: 10px; }
+.services-tech-points ul li {padding-left: 20px; margin-bottom: 6px; font-size: 16px; margin-left: 16px; }
+
+.blog-box .blog-bottom-sec .blog-title-text {font-size: 20px; margin-bottom: 20px; }
+.blog-box .blog-bottom-sec {padding: 20px 0; }
+.blog-box .blog-bottom-sec .author-sec .author {font-size: 14px; }
+
+.blog-points-sec ol {font-size: 20px; line-height: 28px; padding-left: 24px; }
+/*.blog-points-sec ol li .points-inner-text {margin-left: -24px; }*/
+.share-icon-list .icon-inner a {font-size: 16px; padding: 0 12px;}
+
+.blog-details-sec .icon-main:nth-child(2) {
+    padding: 0 20px;
+}
+
+.blog-details-sec .author {font-size: 15px; }
+.blog-details-sec .icon-main {font-size: 14px; }
+.blog-details-sec .bd-text p {font-size: 16px; line-height: 24px;}
+
+.search-wrap .search-input {padding: 8px 36px 8px 11px; font-size: 16px; }
+.recent-post-wrap .post-li a {font-size: 14px; padding: 8px 0; line-height: 23px; }
+.blog-sec-main {padding-bottom: 40px; }
+.search-wrap button {padding: 10px 16px;}
+
+
+.header-main .header-inner .header-right .header-menu ul.navbar-nav {padding: 20px 0; }
+
+
+.job-sec .skills-detais.dots-point .skills-name:after {top: 8px; width: 8px; height: 8px; }
+.job-sec .skills-detais.dots-point .skills-name {margin: 0px; }
+
+}
+
+
+
+@media (max-width: 480px) { 
+
+.banner-sec-content {max-width: 340px; } 	
+
+.contact-us .contact-us-inner {padding: 30px 40px; }
+.strategy-box-wrap {margin: 30px 0px 0; }
+.strategy-box-wrap .strategy-box {width: 100%; margin: 10px 0; }
+.app-getting-started-mian .app-getting-started-rows .app-getting-started-right {height: 400px;}
+.strategy-main .strategy-right .strategy-img {max-width: 300px; width: 100%; height: auto; }
+
+}

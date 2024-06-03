@@ -1,0 +1,348 @@
+[2021-10-05 11:30:08 : INFO] - Re_Smush_It_Task with attachment ID : 693, autocreated on : October 05, 2021 11:30:08 
+[2021-10-05 11:36:34 : INFO] - 
+ 
+[2021-10-05 11:36:34 : INFO] - Header for logs at time:  Tue, 05 Oct 2021 11:36:34 +0000 on https://www.appgurus.com.au 
+[2021-10-05 11:36:34 : INFO] - WP: 5.4 
+[2021-10-05 11:36:34 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-05 11:36:34 : INFO] - MySQL: 5.7.35 
+[2021-10-05 11:36:34 : INFO] - WPLANG: en_US 
+[2021-10-05 11:36:34 : INFO] - Server: Apache 
+[2021-10-05 11:36:34 : INFO] - Outbound connections: N 
+[2021-10-05 11:36:34 : INFO] - safe_mode: 0 
+[2021-10-05 11:36:34 : INFO] - max_execution_time: 3600 
+[2021-10-05 11:36:34 : INFO] - memory_limit: 512M (used: 5.8M | 2M) 
+[2021-10-05 11:36:34 : INFO] - multisite: N 
+[2021-10-05 11:36:34 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-05 11:36:34 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2021-10-05 11:36:34 : INFO] - Set semaphore last lock (smush) time to 2021-10-05 11:36:34 
+[2021-10-05 11:36:34 : INFO] - Semaphore lock (smush) complete 
+[2021-10-05 11:36:34 : INFO] - Processing task with ID : 36, and type 'smush' 
+[2021-10-05 11:36:34 : INFO] - Re_Smush_It_Task with attachment ID : 693, autocreated on : October 05, 2021 11:30:08 
+[2021-10-05 11:36:34 : INFO] - 95 
+[2021-10-05 11:36:37 : INFO] - Backing up the original image - 2021/10/IKNOWA-updraft-pre-smush-original.png 
+[2021-10-05 11:36:37 : INFO] - Re_Smush_It_Task with attachment ID : 693, autocreated on : October 05, 2021 11:30:08 
+[2021-10-05 11:36:37 : INFO] - 95 
+[2021-10-05 11:36:39 : INFO] - Re_Smush_It_Task with attachment ID : 693, autocreated on : October 05, 2021 11:30:08 
+[2021-10-05 11:36:39 : INFO] - 95 
+[2021-10-05 11:36:41 : INFO] - Re_Smush_It_Task with attachment ID : 693, autocreated on : October 05, 2021 11:30:08 
+[2021-10-05 11:36:41 : INFO] - 95 
+[2021-10-05 11:36:44 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/10/IKNOWA.png.The file was compressed from 45.71 KB to 45.71 KB saving 0 percent using WP-Optimize 
+[2021-10-05 11:36:44 : INFO] - Completed processing task with ID : 36, and type 'smush' 
+[2021-10-05 11:36:44 : INFO] - Decremented the semaphore (smush) by 1 
+[2021-10-05 11:36:44 : INFO] - Semaphore (smush) unlocked 
+[2021-10-05 11:36:44 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2021-10-05 11:36:44 : INFO] - Semaphore (smush, ag_options) was successfully cleaned up 
+[2021-10-05 11:36:44 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2021-10-05 11:47:03 : INFO] - 
+ 
+[2021-10-05 11:47:03 : INFO] - Header for logs at time:  Tue, 05 Oct 2021 11:47:03 +0000 on https://www.appgurus.com.au 
+[2021-10-05 11:47:03 : INFO] - WP: 5.4 
+[2021-10-05 11:47:03 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-05 11:47:03 : INFO] - MySQL: 5.7.35 
+[2021-10-05 11:47:03 : INFO] - WPLANG: en_US 
+[2021-10-05 11:47:03 : INFO] - Server: Apache 
+[2021-10-05 11:47:03 : INFO] - Outbound connections: N 
+[2021-10-05 11:47:03 : INFO] - safe_mode: 0 
+[2021-10-05 11:47:03 : INFO] - max_execution_time: 3600 
+[2021-10-05 11:47:03 : INFO] - memory_limit: 512M (used: 5.8M | 2M) 
+[2021-10-05 11:47:03 : INFO] - multisite: N 
+[2021-10-05 11:47:03 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-05 11:47:03 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2021-10-05 12:25:29 : INFO] - Re_Smush_It_Task with attachment ID : 694, autocreated on : October 05, 2021 12:25:29 
+[2021-10-05 12:25:36 : INFO] - Re_Smush_It_Task with attachment ID : 695, autocreated on : October 05, 2021 12:25:36 
+[2021-10-05 12:30:29 : INFO] - 
+ 
+[2021-10-05 12:30:29 : INFO] - Header for logs at time:  Tue, 05 Oct 2021 12:30:29 +0000 on https://www.appgurus.com.au 
+[2021-10-05 12:30:29 : INFO] - WP: 5.4 
+[2021-10-05 12:30:29 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-05 12:30:29 : INFO] - MySQL: 5.7.35 
+[2021-10-05 12:30:29 : INFO] - WPLANG: en_US 
+[2021-10-05 12:30:29 : INFO] - Server: Apache 
+[2021-10-05 12:30:29 : INFO] - Outbound connections: N 
+[2021-10-05 12:30:29 : INFO] - safe_mode: 0 
+[2021-10-05 12:30:29 : INFO] - max_execution_time: 3600 
+[2021-10-05 12:30:29 : INFO] - memory_limit: 512M (used: 44.3M | 12M) 
+[2021-10-05 12:30:29 : INFO] - multisite: N 
+[2021-10-05 12:30:29 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-05 12:30:29 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2021-10-05 12:30:29 : INFO] - Set semaphore last lock (smush) time to 2021-10-05 12:30:29 
+[2021-10-05 12:30:29 : INFO] - Semaphore lock (smush) complete 
+[2021-10-05 12:30:29 : INFO] - Processing task with ID : 37, and type 'smush' 
+[2021-10-05 12:30:29 : INFO] - Re_Smush_It_Task with attachment ID : 694, autocreated on : October 05, 2021 12:25:29 
+[2021-10-05 12:30:29 : INFO] - 95 
+[2021-10-05 12:30:36 : INFO] - Backing up the original image - 2021/09/Iknowa-updraft-pre-smush-original.png 
+[2021-10-05 12:30:36 : INFO] - Re_Smush_It_Task with attachment ID : 694, autocreated on : October 05, 2021 12:25:29 
+[2021-10-05 12:30:36 : INFO] - 95 
+[2021-10-05 12:30:39 : INFO] - Re_Smush_It_Task with attachment ID : 694, autocreated on : October 05, 2021 12:25:29 
+[2021-10-05 12:30:39 : INFO] - 95 
+[2021-10-05 12:30:48 : INFO] - Task with ID 37 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2021-10-05 12:30:48 : INFO] - data: {"src":"http:\/\/par3.static.resmush.it\/151ee0379fd7d6769d14d6d12b2894b1\/_src_Iknowa-150x150.png","dest":"http:\/\/par3.static.resmush.it\/151ee0379fd7d6769d14d6d12b2894b1\/Iknowa-150x150.png","src_size":18307,"dest_size":7850,"percent":57,"output":"json","expires":"Tue, 05 Oct 2021 14:35:43 +0200","generator":"reSmush.it rev.3.0.4.20210124"} 
+[2021-10-05 12:30:48 : INFO] - Re_Smush_It_Task with attachment ID : 694, autocreated on : October 05, 2021 12:25:29 
+[2021-10-05 12:30:48 : INFO] - 95 
+[2021-10-05 12:30:52 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/09/Iknowa.png.The file was compressed from 77.08 KB to 77.08 KB saving 0 percent using WP-Optimize 
+[2021-10-05 12:30:52 : INFO] - Completed processing task with ID : 37, and type 'smush' 
+[2021-10-05 12:30:52 : INFO] - Set semaphore last lock (smush) time to 2021-10-05 12:30:52 
+[2021-10-05 12:30:52 : INFO] - Processing task with ID : 38, and type 'smush' 
+[2021-10-05 12:30:52 : INFO] - Re_Smush_It_Task with attachment ID : 695, autocreated on : October 05, 2021 12:25:36 
+[2021-10-05 12:30:52 : INFO] - 95 
+[2021-10-05 12:30:55 : INFO] - Backing up the original image - 2021/09/Linx-1-updraft-pre-smush-original.png 
+[2021-10-05 12:30:55 : INFO] - Re_Smush_It_Task with attachment ID : 695, autocreated on : October 05, 2021 12:25:36 
+[2021-10-05 12:30:55 : INFO] - 95 
+[2021-10-05 12:30:58 : INFO] - Re_Smush_It_Task with attachment ID : 695, autocreated on : October 05, 2021 12:25:36 
+[2021-10-05 12:30:58 : INFO] - 95 
+[2021-10-05 12:31:00 : INFO] - Re_Smush_It_Task with attachment ID : 695, autocreated on : October 05, 2021 12:25:36 
+[2021-10-05 12:31:00 : INFO] - 95 
+[2021-10-05 12:31:04 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/09/Linx-1.png.The file was compressed from 80.96 KB to 80.96 KB saving 0 percent using WP-Optimize 
+[2021-10-05 12:31:04 : INFO] - Completed processing task with ID : 38, and type 'smush' 
+[2021-10-05 12:31:04 : INFO] - Decremented the semaphore (smush) by 1 
+[2021-10-05 12:31:04 : INFO] - Semaphore (smush) unlocked 
+[2021-10-05 12:31:04 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2021-10-05 12:31:04 : INFO] - Semaphore (smush, ag_options) was successfully cleaned up 
+[2021-10-05 12:31:04 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2021-10-05 12:40:33 : INFO] - 
+ 
+[2021-10-05 12:40:33 : INFO] - Header for logs at time:  Tue, 05 Oct 2021 12:40:33 +0000 on https://www.appgurus.com.au 
+[2021-10-05 12:40:33 : INFO] - WP: 5.4 
+[2021-10-05 12:40:33 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-05 12:40:33 : INFO] - MySQL: 5.7.35 
+[2021-10-05 12:40:33 : INFO] - WPLANG: en_US 
+[2021-10-05 12:40:33 : INFO] - Server: Apache 
+[2021-10-05 12:40:33 : INFO] - Outbound connections: N 
+[2021-10-05 12:40:33 : INFO] - safe_mode: 0 
+[2021-10-05 12:40:33 : INFO] - max_execution_time: 3600 
+[2021-10-05 12:40:33 : INFO] - memory_limit: 512M (used: 44.3M | 2M) 
+[2021-10-05 12:40:33 : INFO] - multisite: N 
+[2021-10-05 12:40:33 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-05 12:40:33 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2021-10-05 13:28:48 : INFO] - Re_Smush_It_Task with attachment ID : 696, autocreated on : October 05, 2021 01:28:48 
+[2021-10-05 13:28:49 : INFO] - Re_Smush_It_Task with attachment ID : 697, autocreated on : October 05, 2021 01:28:49 
+[2021-10-05 13:29:12 : INFO] - Re_Smush_It_Task with attachment ID : 698, autocreated on : October 05, 2021 01:29:12 
+[2021-10-05 13:29:13 : INFO] - Re_Smush_It_Task with attachment ID : 699, autocreated on : October 05, 2021 01:29:13 
+[2021-10-05 13:29:53 : INFO] - Re_Smush_It_Task with attachment ID : 700, autocreated on : October 05, 2021 01:29:53 
+[2021-10-05 13:33:52 : INFO] - 
+ 
+[2021-10-05 13:33:52 : INFO] - Header for logs at time:  Tue, 05 Oct 2021 13:33:52 +0000 on https://www.appgurus.com.au 
+[2021-10-05 13:33:52 : INFO] - WP: 5.4 
+[2021-10-05 13:33:52 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-05 13:33:52 : INFO] - MySQL: 5.7.35 
+[2021-10-05 13:33:52 : INFO] - WPLANG: en_US 
+[2021-10-05 13:33:52 : INFO] - Server: Apache 
+[2021-10-05 13:33:52 : INFO] - Outbound connections: N 
+[2021-10-05 13:33:52 : INFO] - safe_mode: 0 
+[2021-10-05 13:33:52 : INFO] - max_execution_time: 3600 
+[2021-10-05 13:33:52 : INFO] - memory_limit: 512M (used: 11.7M | 2M) 
+[2021-10-05 13:33:52 : INFO] - multisite: N 
+[2021-10-05 13:33:52 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-05 13:33:52 : INFO] - A total of 5 tasks of type smush found and will be processed in this iteration 
+[2021-10-05 13:33:52 : INFO] - Set semaphore last lock (smush) time to 2021-10-05 13:33:52 
+[2021-10-05 13:33:52 : INFO] - Semaphore lock (smush) complete 
+[2021-10-05 13:33:52 : INFO] - Processing task with ID : 39, and type 'smush' 
+[2021-10-05 13:33:52 : INFO] - Re_Smush_It_Task with attachment ID : 696, autocreated on : October 05, 2021 01:28:48 
+[2021-10-05 13:33:52 : INFO] - 95 
+[2021-10-05 13:33:55 : INFO] - Backing up the original image - 2021/10/facebook-icon-updraft-pre-smush-original.png 
+[2021-10-05 13:33:55 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/10/facebook-icon.png.The file was compressed from 195 bytes to 195 bytes saving 0 percent using WP-Optimize 
+[2021-10-05 13:33:55 : INFO] - Completed processing task with ID : 39, and type 'smush' 
+[2021-10-05 13:33:55 : INFO] - Processing task with ID : 40, and type 'smush' 
+[2021-10-05 13:33:55 : INFO] - Re_Smush_It_Task with attachment ID : 697, autocreated on : October 05, 2021 01:28:49 
+[2021-10-05 13:33:55 : INFO] - 95 
+[2021-10-05 13:33:57 : INFO] - Backing up the original image - 2021/10/linkedin-icon-updraft-pre-smush-original.png 
+[2021-10-05 13:33:57 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/10/linkedin-icon.png.The file was compressed from 245 bytes to 234 bytes saving 4.49 percent using WP-Optimize 
+[2021-10-05 13:33:57 : INFO] - Completed processing task with ID : 40, and type 'smush' 
+[2021-10-05 13:33:57 : INFO] - Processing task with ID : 41, and type 'smush' 
+[2021-10-05 13:33:57 : INFO] - Re_Smush_It_Task with attachment ID : 698, autocreated on : October 05, 2021 01:29:12 
+[2021-10-05 13:33:57 : INFO] - 95 
+[2021-10-05 13:33:58 : INFO] - Backing up the original image - 2021/10/arrow-b-right-updraft-pre-smush-original.png 
+[2021-10-05 13:33:58 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/10/arrow-b-right.png.The file was compressed from 162 bytes to 162 bytes saving 0 percent using WP-Optimize 
+[2021-10-05 13:33:58 : INFO] - Completed processing task with ID : 41, and type 'smush' 
+[2021-10-05 13:33:58 : INFO] - Processing task with ID : 42, and type 'smush' 
+[2021-10-05 13:33:58 : INFO] - Re_Smush_It_Task with attachment ID : 699, autocreated on : October 05, 2021 01:29:13 
+[2021-10-05 13:33:58 : INFO] - 95 
+[2021-10-05 13:33:59 : INFO] - Backing up the original image - 2021/10/arrow-right-updraft-pre-smush-original.png 
+[2021-10-05 13:33:59 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/10/arrow-right.png.The file was compressed from 170 bytes to 168 bytes saving 1.18 percent using WP-Optimize 
+[2021-10-05 13:33:59 : INFO] - Completed processing task with ID : 42, and type 'smush' 
+[2021-10-05 13:33:59 : INFO] - Processing task with ID : 43, and type 'smush' 
+[2021-10-05 13:33:59 : INFO] - Re_Smush_It_Task with attachment ID : 700, autocreated on : October 05, 2021 01:29:53 
+[2021-10-05 13:33:59 : INFO] - 95 
+[2021-10-05 13:34:01 : INFO] - Backing up the original image - 2021/10/corner-down-right-updraft-pre-smush-original.png 
+[2021-10-05 13:34:02 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/10/corner-down-right.png.The file was compressed from 424 bytes to 312 bytes saving 26.42 percent using WP-Optimize 
+[2021-10-05 13:34:02 : INFO] - Completed processing task with ID : 43, and type 'smush' 
+[2021-10-05 13:34:02 : INFO] - Decremented the semaphore (smush) by 1 
+[2021-10-05 13:34:02 : INFO] - Semaphore (smush) unlocked 
+[2021-10-05 13:34:02 : INFO] - Successfully processed the queue (smush). 5 tasks were processed out of 5. 
+[2021-10-05 13:34:02 : INFO] - Semaphore (smush, ag_options) was successfully cleaned up 
+[2021-10-05 13:34:02 : INFO] - Cleaning up tasks of type (smush). A total of 5 tasks will be deleted. 
+[2021-10-05 13:43:53 : INFO] - 
+ 
+[2021-10-05 13:43:53 : INFO] - Header for logs at time:  Tue, 05 Oct 2021 13:43:53 +0000 on https://www.appgurus.com.au 
+[2021-10-05 13:43:53 : INFO] - WP: 5.4 
+[2021-10-05 13:43:53 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-05 13:43:53 : INFO] - MySQL: 5.7.35 
+[2021-10-05 13:43:53 : INFO] - WPLANG: en_US 
+[2021-10-05 13:43:53 : INFO] - Server: Apache 
+[2021-10-05 13:43:53 : INFO] - Outbound connections: N 
+[2021-10-05 13:43:53 : INFO] - safe_mode: 0 
+[2021-10-05 13:43:53 : INFO] - max_execution_time: 3600 
+[2021-10-05 13:43:53 : INFO] - memory_limit: 512M (used: 11.7M | 2M) 
+[2021-10-05 13:43:53 : INFO] - multisite: N 
+[2021-10-05 13:43:53 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-05 13:43:53 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2021-10-06 05:48:17 : INFO] - Re_Smush_It_Task with attachment ID : 702, autocreated on : October 06, 2021 05:48:17 
+[2021-10-06 05:48:21 : INFO] - Re_Smush_It_Task with attachment ID : 703, autocreated on : October 06, 2021 05:48:21 
+[2021-10-06 05:53:25 : INFO] - 
+ 
+[2021-10-06 05:53:25 : INFO] - Header for logs at time:  Wed, 06 Oct 2021 05:53:25 +0000 on https://www.appgurus.com.au 
+[2021-10-06 05:53:25 : INFO] - WP: 5.4 
+[2021-10-06 05:53:25 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-06 05:53:25 : INFO] - MySQL: 5.7.35 
+[2021-10-06 05:53:25 : INFO] - WPLANG: en_US 
+[2021-10-06 05:53:25 : INFO] - Server: Apache 
+[2021-10-06 05:53:25 : INFO] - Outbound connections: N 
+[2021-10-06 05:53:25 : INFO] - safe_mode: 0 
+[2021-10-06 05:53:25 : INFO] - max_execution_time: 3600 
+[2021-10-06 05:53:25 : INFO] - memory_limit: 512M (used: 12.7M | 2M) 
+[2021-10-06 05:53:25 : INFO] - multisite: N 
+[2021-10-06 05:53:25 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-06 05:53:25 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2021-10-06 05:53:25 : INFO] - Set semaphore last lock (smush) time to 2021-10-06 05:53:25 
+[2021-10-06 05:53:25 : INFO] - Semaphore lock (smush) complete 
+[2021-10-06 05:53:25 : INFO] - Processing task with ID : 44, and type 'smush' 
+[2021-10-06 05:53:25 : INFO] - Re_Smush_It_Task with attachment ID : 702, autocreated on : October 06, 2021 05:48:17 
+[2021-10-06 05:53:25 : INFO] - 95 
+[2021-10-06 05:53:29 : INFO] - Backing up the original image - 2021/09/Linx-2-updraft-pre-smush-original.png 
+[2021-10-06 05:53:29 : INFO] - Re_Smush_It_Task with attachment ID : 702, autocreated on : October 06, 2021 05:48:17 
+[2021-10-06 05:53:29 : INFO] - 95 
+[2021-10-06 05:53:31 : INFO] - Re_Smush_It_Task with attachment ID : 702, autocreated on : October 06, 2021 05:48:17 
+[2021-10-06 05:53:31 : INFO] - 95 
+[2021-10-06 05:53:33 : INFO] - Re_Smush_It_Task with attachment ID : 702, autocreated on : October 06, 2021 05:48:17 
+[2021-10-06 05:53:33 : INFO] - 95 
+[2021-10-06 05:53:37 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/09/Linx-2.png.The file was compressed from 80.96 KB to 80.96 KB saving 0 percent using WP-Optimize 
+[2021-10-06 05:53:37 : INFO] - Completed processing task with ID : 44, and type 'smush' 
+[2021-10-06 05:53:37 : INFO] - Processing task with ID : 45, and type 'smush' 
+[2021-10-06 05:53:37 : INFO] - Re_Smush_It_Task with attachment ID : 703, autocreated on : October 06, 2021 05:48:21 
+[2021-10-06 05:53:37 : INFO] - 95 
+[2021-10-06 05:53:40 : INFO] - Backing up the original image - 2021/09/Umoji-1-updraft-pre-smush-original.png 
+[2021-10-06 05:53:40 : INFO] - Re_Smush_It_Task with attachment ID : 703, autocreated on : October 06, 2021 05:48:21 
+[2021-10-06 05:53:40 : INFO] - 95 
+[2021-10-06 05:53:42 : INFO] - Re_Smush_It_Task with attachment ID : 703, autocreated on : October 06, 2021 05:48:21 
+[2021-10-06 05:53:42 : INFO] - 95 
+[2021-10-06 05:53:44 : INFO] - Re_Smush_It_Task with attachment ID : 703, autocreated on : October 06, 2021 05:48:21 
+[2021-10-06 05:53:44 : INFO] - 95 
+[2021-10-06 05:53:48 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/09/Umoji-1.png.The file was compressed from 64.83 KB to 64.83 KB saving 0 percent using WP-Optimize 
+[2021-10-06 05:53:48 : INFO] - Completed processing task with ID : 45, and type 'smush' 
+[2021-10-06 05:53:48 : INFO] - Set semaphore last lock (smush) time to 2021-10-06 05:53:48 
+[2021-10-06 05:53:48 : INFO] - Decremented the semaphore (smush) by 1 
+[2021-10-06 05:53:48 : INFO] - Semaphore (smush) unlocked 
+[2021-10-06 05:53:48 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2021-10-06 05:53:48 : INFO] - Semaphore (smush, ag_options) was successfully cleaned up 
+[2021-10-06 05:53:48 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2021-10-06 06:03:30 : INFO] - 
+ 
+[2021-10-06 06:03:30 : INFO] - Header for logs at time:  Wed, 06 Oct 2021 06:03:30 +0000 on https://www.appgurus.com.au 
+[2021-10-06 06:03:30 : INFO] - WP: 5.4 
+[2021-10-06 06:03:30 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-06 06:03:30 : INFO] - MySQL: 5.7.35 
+[2021-10-06 06:03:30 : INFO] - WPLANG: en_US 
+[2021-10-06 06:03:30 : INFO] - Server: Apache 
+[2021-10-06 06:03:30 : INFO] - Outbound connections: N 
+[2021-10-06 06:03:30 : INFO] - safe_mode: 0 
+[2021-10-06 06:03:30 : INFO] - max_execution_time: 3600 
+[2021-10-06 06:03:30 : INFO] - memory_limit: 512M (used: 12.7M | 2M) 
+[2021-10-06 06:03:30 : INFO] - multisite: N 
+[2021-10-06 06:03:30 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-06 06:03:30 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2021-10-06 07:14:25 : INFO] - Re_Smush_It_Task with attachment ID : 704, autocreated on : October 06, 2021 07:14:25 
+[2021-10-06 07:19:44 : INFO] - 
+ 
+[2021-10-06 07:19:44 : INFO] - Header for logs at time:  Wed, 06 Oct 2021 07:19:44 +0000 on https://www.appgurus.com.au 
+[2021-10-06 07:19:44 : INFO] - WP: 5.4.7 
+[2021-10-06 07:19:44 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-06 07:19:44 : INFO] - MySQL: 5.7.35 
+[2021-10-06 07:19:44 : INFO] - WPLANG: en_US 
+[2021-10-06 07:19:44 : INFO] - Server: Apache 
+[2021-10-06 07:19:44 : INFO] - Outbound connections: N 
+[2021-10-06 07:19:44 : INFO] - safe_mode: 0 
+[2021-10-06 07:19:44 : INFO] - max_execution_time: 3600 
+[2021-10-06 07:19:44 : INFO] - memory_limit: 512M (used: 45.8M | 2M) 
+[2021-10-06 07:19:44 : INFO] - multisite: N 
+[2021-10-06 07:19:44 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-06 07:19:44 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2021-10-06 07:19:44 : INFO] - Set semaphore last lock (smush) time to 2021-10-06 07:19:44 
+[2021-10-06 07:19:44 : INFO] - Semaphore lock (smush) complete 
+[2021-10-06 07:19:44 : INFO] - Processing task with ID : 46, and type 'smush' 
+[2021-10-06 07:19:44 : INFO] - Re_Smush_It_Task with attachment ID : 704, autocreated on : October 06, 2021 07:14:25 
+[2021-10-06 07:19:44 : INFO] - 95 
+[2021-10-06 07:19:48 : INFO] - Backing up the original image - 2021/10/RealPass-Image-updraft-pre-smush-original.png 
+[2021-10-06 07:19:48 : INFO] - Re_Smush_It_Task with attachment ID : 704, autocreated on : October 06, 2021 07:14:25 
+[2021-10-06 07:19:48 : INFO] - 95 
+[2021-10-06 07:19:51 : INFO] - Re_Smush_It_Task with attachment ID : 704, autocreated on : October 06, 2021 07:14:25 
+[2021-10-06 07:19:51 : INFO] - 95 
+[2021-10-06 07:19:53 : INFO] - Re_Smush_It_Task with attachment ID : 704, autocreated on : October 06, 2021 07:14:25 
+[2021-10-06 07:19:53 : INFO] - 95 
+[2021-10-06 07:19:57 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2021/10/RealPass-Image.png.The file was compressed from 71.36 KB to 71.36 KB saving 0 percent using WP-Optimize 
+[2021-10-06 07:19:57 : INFO] - Completed processing task with ID : 46, and type 'smush' 
+[2021-10-06 07:19:57 : INFO] - Decremented the semaphore (smush) by 1 
+[2021-10-06 07:19:57 : INFO] - Semaphore (smush) unlocked 
+[2021-10-06 07:19:57 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2021-10-06 07:19:57 : INFO] - Semaphore (smush, ag_options) was successfully cleaned up 
+[2021-10-06 07:19:57 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2021-10-06 07:30:12 : INFO] - 
+ 
+[2021-10-06 07:30:12 : INFO] - Header for logs at time:  Wed, 06 Oct 2021 07:30:12 +0000 on https://www.appgurus.com.au 
+[2021-10-06 07:30:12 : INFO] - WP: 5.4.7 
+[2021-10-06 07:30:12 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-06 07:30:12 : INFO] - MySQL: 5.7.35 
+[2021-10-06 07:30:12 : INFO] - WPLANG: en_US 
+[2021-10-06 07:30:12 : INFO] - Server: Apache 
+[2021-10-06 07:30:12 : INFO] - Outbound connections: N 
+[2021-10-06 07:30:12 : INFO] - safe_mode: 0 
+[2021-10-06 07:30:12 : INFO] - max_execution_time: 3600 
+[2021-10-06 07:30:12 : INFO] - memory_limit: 512M (used: 45.8M | 42M) 
+[2021-10-06 07:30:12 : INFO] - multisite: N 
+[2021-10-06 07:30:12 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-06 07:30:12 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2021-10-06 08:56:41 : INFO] - Re_Smush_It_Task server status: Online 
+[2021-10-06 08:56:41 : INFO] - 
+ 
+[2021-10-06 08:56:41 : INFO] - Header for logs at time:  Wed, 06 Oct 2021 08:56:41 +0000 on https://www.appgurus.com.au 
+[2021-10-06 08:56:41 : INFO] - WP: 5.4.7 
+[2021-10-06 08:56:41 : INFO] - PHP: 7.4.24 (apache2handler, Linux pod-120185:apache2_74:217 5.4.0-1051-gcp #55~18.04.1-Ubuntu SMP Sun Aug 1 20:38:04 UTC 2021 x86_64) 
+[2021-10-06 08:56:41 : INFO] - MySQL: 5.7.35 
+[2021-10-06 08:56:41 : INFO] - WPLANG: en_US 
+[2021-10-06 08:56:41 : INFO] - Server: Apache 
+[2021-10-06 08:56:41 : INFO] - Outbound connections: N 
+[2021-10-06 08:56:41 : INFO] - safe_mode: 0 
+[2021-10-06 08:56:41 : INFO] - max_execution_time: 3600 
+[2021-10-06 08:56:41 : INFO] - memory_limit: 512M (used: 13.2M | 2M) 
+[2021-10-06 08:56:41 : INFO] - multisite: N 
+[2021-10-06 08:56:41 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2021-10-06 08:56:41 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2021-10-06 08:56:41 : INFO] - Set semaphore last lock (smush) time to 2021-10-06 08:56:41 
+[2021-10-06 08:56:41 : INFO] - Semaphore lock (smush) complete 
+[2021-10-06 08:56:41 : INFO] - Processing task with ID : 47, and type 'smush' 
+[2021-10-06 08:56:41 : INFO] - Re_Smush_It_Task - Attachment ID : 28, Started on : October 06, 2021 08:56:41 
+[2021-10-06 08:56:41 : INFO] - 95 
+[2021-10-06 08:56:48 : INFO] - Backing up the original image - 2020/04/banner-img-3-scaled-updraft-pre-smush-original.jpg 
+[2021-10-06 08:56:48 : INFO] - Re_Smush_It_Task - Attachment ID : 28, Started on : October 06, 2021 08:56:41 
+[2021-10-06 08:56:48 : INFO] - 95 
+[2021-10-06 08:56:52 : INFO] - Re_Smush_It_Task - Attachment ID : 28, Started on : October 06, 2021 08:56:41 
+[2021-10-06 08:56:52 : INFO] - 95 
+[2021-10-06 08:56:55 : INFO] - Re_Smush_It_Task - Attachment ID : 28, Started on : October 06, 2021 08:56:41 
+[2021-10-06 08:56:55 : INFO] - 95 
+[2021-10-06 08:56:57 : INFO] - Re_Smush_It_Task - Attachment ID : 28, Started on : October 06, 2021 08:56:41 
+[2021-10-06 08:56:57 : INFO] - 95 
+[2021-10-06 08:56:59 : INFO] - Re_Smush_It_Task - Attachment ID : 28, Started on : October 06, 2021 08:56:41 
+[2021-10-06 08:56:59 : INFO] - 95 
+[2021-10-06 08:57:04 : INFO] - Re_Smush_It_Task - Attachment ID : 28, Started on : October 06, 2021 08:56:41 
+[2021-10-06 08:57:04 : INFO] - 95 
+[2021-10-06 08:57:13 : INFO] - Re_Smush_It_Task - Attachment ID : 28, Started on : October 06, 2021 08:56:41 
+[2021-10-06 08:57:13 : INFO] - 95 
+[2021-10-06 08:57:16 : INFO] - Re_Smush_It_Task - Attachment ID : 28, Started on : October 06, 2021 08:56:41 
+[2021-10-06 08:57:16 : INFO] - 95 
+[2021-10-06 08:57:21 : INFO] - Successfully optimized the image - /nas/content/live/appgurus/wp-content/uploads/2020/04/banner-img-3-scaled.jpg.The file was compressed from 552.43 KB to 540.00 KB saving 2.25 percent using WP-Optimize 
+[2021-10-06 08:57:21 : INFO] - Completed processing task with ID : 47, and type 'smush' 
+[2021-10-06 08:57:21 : INFO] - Set semaphore last lock (smush) time to 2021-10-06 08:57:21 
+[2021-10-06 08:57:21 : INFO] - Decremented the semaphore (smush) by 1 
+[2021-10-06 08:57:21 : INFO] - Semaphore (smush) unlocked 
+[2021-10-06 08:57:21 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2021-10-06 08:57:21 : INFO] - Semaphore (smush, ag_options) was successfully cleaned up 
+[2021-10-06 08:57:21 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 

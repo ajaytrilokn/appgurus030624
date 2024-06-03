@@ -1,0 +1,31 @@
+‹ýÀY<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:10208;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-04-04 16:15:08";s:13:"post_date_gmt";s:19:"2017-04-04 06:15:08";s:12:"post_content";s:5462:"[mk_page_section bg_image="https://giqk9lga.dreamwp.com/wp-content/uploads/2017/04/bigstock-loei-thailand-august-99032276-large.jpg" attachment="fixed" bg_position="center center" bg_repeat="no-repeat" bg_stretch="true" video_color_mask="#000000" video_opacity="0.4" full_width="true" full_height="true" section_id="service-banner-section" sidebar="sidebar-1"][vc_column][mk_fancy_title color="#ffffff" size="43" txt_transform="capitalize" font_family="none" align="center"]A good idea needs a great marketing strategy.
+
+[/mk_fancy_title][/vc_column][/mk_page_section][vc_row][vc_column][mk_padding_divider][mk_fancy_title color="#f05d27" size="30" margin_bottom="0" font_family="none" align="center" animation="bottom-to-top"]
+<h2 style="font-size: 30px; color: #f05d27; font-weight: normal !important;">Audience Engagement</h2>
+[/mk_fancy_title][vc_column_text align="center" margin_bottom="30" animation="left-to-right"]
+<h3 style="color: #200a2e; font-width: normal;">Resolve the mystery behind consumer behaviour</h3>
+[/vc_column_text][vc_column_text align="center" animation="flip-y"]Identifying what your audience is most receptive to sometimes can be a science. It involves research, strategy and an execution plan that is consistently refined based on the response of your audience. We have found that Facebook is the most powerful platform for app marketing. Based on your goals and vision our dedicated Facebook strategists will work with you on campaigns that will grow your audience and app engagement.[/vc_column_text][mk_padding_divider][/vc_column][/vc_row][mk_page_section layout_structure="half_right" bg_image="https://giqk9lga.dreamwp.com/wp-content/uploads/2017/04/bigstock-singapore-circa-may-lo-75598945-medium.jpg" bg_stretch="true" top_shadow="true" full_width="true" padding_top="100" padding_bottom="100"][vc_column css=".vc_custom_1504183726472{padding-right: 10px !important;padding-left: 10px !important;background-color: #ffffff !important;}"][vc_column_text align="center" animation="right-to-left"]
+<h2>Effective simplicity! Be memorable</h2>
+[/vc_column_text][mk_fancy_title color="#f05d27" txt_transform="none" margin_bottom="0" font_family="none" align="center" animation="right-to-left"]
+<h2 style="font-size: 30px; color: #f05d27; text-transform: none; font-weight: thin !important;">Strong Branding</h2>
+[/mk_fancy_title][vc_column_text align="center" animation="flip-x"]Your logo is a key to establishing the heart and soul of your brand identity. Next is your brand name. No matter how big or small your vision and project is, people need to know and remember what your product stands for.
+
+During the design phase of your project we focus onÂ the branding elements that will set the tone for the entire platform.[/vc_column_text][/vc_column][vc_column width="1/2"][/vc_column][/mk_page_section][mk_page_section layout_structure="half_left" bg_image="https://giqk9lga.dreamwp.com/wp-content/uploads/2017/04/pexels-photo-267355-medium.jpeg" bg_stretch="true" video_loop="false" video_color_mask="#000000" video_opacity="0.5" full_width="true" full_height="true" padding_top="0" padding_bottom="0"][vc_column width="1/2"][/vc_column][vc_column border_color="#ffffff" css=".vc_custom_1504183038244{background-color: #ffffff !important;}"][mk_fancy_title color="#f05d27" size="40" font_weight="bold" font_family="none" align="center" animation="left-to-right"]
+<p class="cms-custom-headding-title">Become a
+#TRENDING
+TOPIC</p>
+[/mk_fancy_title][vc_column_text align="center" animation="right-to-left"]
+<p style="font-size: 27px;">Whatâ€™s hot? Stay current.</p>
+[/vc_column_text][vc_column_text align="center" animation="left-to-right"]
+<p style="color: #a1a1a1;">Trends come and go on a frequent basis. Staying current, relevant and keeping up with the latest trends is crucial. Knowing how to immerse your product into a #trending movement can be an award winning experience. Learn how to leverage of social influences, events and topics to build awareness and increase engagement.</p>
+[/vc_column_text][/vc_column][/mk_page_section][mk_page_section layout_structure="half_right" bg_image="https://giqk9lga.dreamwp.com/wp-content/uploads/2017/04/facebook.jpg" video_loop="false" top_shadow="true"][vc_column css=".vc_custom_1504183073688{background-color: #ffffff !important;}"][mk_padding_divider size="50"][mk_fancy_title color="#ffffff" size="40" font_weight="bold" txt_transform="none" font_family="none" align="center" animation="flip-y"]
+<h1 style="color: #f05d27;">Benefits of Facebook Marketing</h1>
+[/mk_fancy_title][vc_column_text align="center" animation="right-to-left"]
+<p style="font-size: 27px;">Target your audience precisely, analyse and refine on-going strategy.</p>
+[/vc_column_text][vc_column_text animation="right-to-left"]Facebook has proven to be one of the most powerful branding and engagement tools. There is a unique level of interaction you can get with your customers not available anywhere else.
+
+Our facebook experts will consult you on the most appropriate strategies for your mobile app or a web based platformÂ within budgets you are comfortable with.
+
+Your campaigns will be managed throughÂ ongoing analysis, strategy refinement and audience building and conversion techniques.
+<div class="repeater_column_content"></div>
+[/vc_column_text][/vc_column][vc_column width="1/2"][/vc_column][vc_column][mk_padding_divider size="50"][/vc_column][/mk_page_section]";s:10:"post_title";s:13:"App Marketing";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:13:"app-marketing";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2017-09-13 12:11:00";s:17:"post_modified_gmt";s:19:"2017-09-13 02:11:00";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:43:"https://giqk9lga.dreamwp.com/?page_id=10208";s:10:"menu_order";i:0;s:9:"post_type";s:4:"page";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}
