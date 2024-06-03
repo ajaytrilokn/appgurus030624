@@ -22,14 +22,6 @@ $author_id=$post->post_author;
 									<p><?php echo get_sub_field('banner_count_text');?></p>
 								</div>
 								<?php endwhile;endif;?>
-								<!-- <div class="banner-count-box">
-									<h2 class="theme-color-text">500+</h2>
-									<p>Project Completed</p>
-								</div>
-								<div class="banner-count-box">
-									<h2 class="theme-color-text">100%</h2>
-									<p>In-House Australian Design & Development Team.</p>
-								</div> -->
 							</div>
 						</div>
 					</div>
@@ -51,51 +43,6 @@ $author_id=$post->post_author;
 									</div>
 								</div>
 								<?php endwhile;endif;?>
-								<!-- <div class="client-logo-wrap">
-									<div class="client-logo">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/logo/client_logo_2.png" alt="logo">
-									</div>
-								</div>
-								<div class="client-logo-wrap">
-									<div class="client-logo">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/logo/client_logo_3.png" alt="logo">
-									</div>
-								</div>
-								<div class="client-logo-wrap">
-									<div class="client-logo">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/logo/client_logo_4.png" alt="logo">
-									</div>
-								</div>
-								<div class="client-logo-wrap">
-									<div class="client-logo">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/logo/client_logo_5.png" alt="logo">
-									</div>
-								</div>
-								<div class="client-logo-wrap">
-									<div class="client-logo">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/logo/client_logo_6.png" alt="logo">
-									</div>
-								</div>
-								<div class="client-logo-wrap">
-									<div class="client-logo">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/logo/client_logo_7.png" alt="logo">
-									</div>
-								</div>
-								<div class="client-logo-wrap">
-									<div class="client-logo">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/logo/client_logo_8.png" alt="logo">
-									</div>
-								</div>
-								<div class="client-logo-wrap">
-									<div class="client-logo">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/logo/client_logo_9.png" alt="logo">
-									</div>
-								</div>
-								<div class="client-logo-wrap">
-									<div class="client-logo">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/logo/client_logo_10.png" alt="logo">
-									</div>
-								</div> -->
 							</div>
 						</div>
 
@@ -117,21 +64,6 @@ $author_id=$post->post_author;
 									</div>
 			                    </div>
 								<?php $i++; endwhile; ?>
-			                    <!-- <div class="tab-pane fade" id="accordion-two" role="tabpanel" aria-labelledby="accordion-two-tab">
-			                        <div class="images-main">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/map.svg" alt="#">
-									</div>
-			                    </div>
-			                     <div class="tab-pane fade" id="accordion-three" role="tabpanel" aria-labelledby="accordion-three-tab">
-			                        <div class="images-main">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/accordian-img.png" alt="#">
-									</div>
-			                    </div>
-			                     <div class="tab-pane fade" id="accordion-four" role="tabpanel" aria-labelledby="accordion-four-tab">
-			                        <div class="images-main">
-										<img src="<?php echo get_template_directory_uri();?>/assets/images/map.svg" alt="#">
-									</div>
-			                    </div> -->
 		                   	</div>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -149,10 +81,6 @@ $author_id=$post->post_author;
 											<?php if(have_rows('service_types')):while(have_rows('service_types')):the_row();?>
 								      		<li><?php echo get_sub_field('service_type');?></li>
 											<?php endwhile;endif;?>
-								      		<!-- <li>Research</li>
-								      		<li>UX/UI Design</li>
-								      		<li>Product Design</li>
-								      		<li>Rapid Prototyping</li> -->
 								      	</ul>
 								      	<p><?php echo get_sub_field('service_text');?></p>
 								      	<div class="learn_more_main">
@@ -162,73 +90,6 @@ $author_id=$post->post_author;
 								    </div>
 								</div>
 								<?php $i++; endwhile; ?>
-
-								<!-- <div class="accordion-item" data-bs-toggle="tab" data-bs-target="#accordion-two" type="button" role="tab" aria-controls="accordion-two" aria-selected="false">
-								    <h2 class="accordion-header" id="service-headingTwo">
-								      <button id="collapseTwo" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service-collapseTwo" aria-expanded="false" aria-controls="service-collapseTwo">
-								        Mobile App Development
-								      </button>
-								    </h2>
-								    <div id="service-collapseTwo" class="accordion-collapse collapse" aria-labelledby="service-headingTwo" data-bs-parent="#accordionService">
-									    <div class="accordion-body">
-									      	<ul class="service-type">
-									      		<li>Project Scopping</li>
-									      		<li>Research</li>
-									      		<li>UX/UI Design</li>
-									      		<li>Product Design</li>
-									      		<li>Rapid Prototyping</li>
-									      	</ul>
-									      	<p>Maximize your competitive edge in the marketplace by partnering with us to conduct research and design tailored program evaluations.</p>
-									      	<div class="learn_more_main">
-									      		<a href="#" class="learn_more_cta">LEARN MORE</a>
-									      	</div>
-									    </div>								      
-								    </div>
-								</div>
-								<div class="accordion-item" data-bs-toggle="tab" data-bs-target="#accordion-three" type="button" role="tab" aria-controls="accordion-three" aria-selected="false">
-								    <h2 class="accordion-header" id="service-headingThree">
-								      <button id="collapseThree" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service-collapseThree" aria-expanded="false" aria-controls="service-collapseThree">
-								       Web Development
-								      </button>
-								    </h2>
-								    <div id="service-collapseThree" class="accordion-collapse collapse" aria-labelledby="service-headingThree" data-bs-parent="#accordionService">
-								      	<div class="accordion-body">
-									      	<ul class="service-type">
-									      		<li>Project Scopping</li>
-									      		<li>Research</li>
-									      		<li>UX/UI Design</li>
-									      		<li>Product Design</li>
-									      		<li>Rapid Prototyping</li>
-									      	</ul>
-									      	<p>Maximize your competitive edge in the marketplace by partnering with us to conduct research and design tailored program evaluations.</p>
-									      	<div class="learn_more_main">
-									      		<a href="#" class="learn_more_cta">LEARN MORE</a>
-									      	</div>
-									    </div>
-								    </div>
-								</div>
-								<div class="accordion-item" data-bs-toggle="tab" data-bs-target="#accordion-four" type="button" role="tab" aria-controls="accordion-four" aria-selected="false">
-								    <h2 class="accordion-header" id="service-headingFour">
-								      <button id="collapseFour" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service-collapseFour" aria-expanded="false" aria-controls="service-collapseFour">
-								       Support & Maintenance
-								      </button>
-								    </h2>
-								    <div id="service-collapseFour" class="accordion-collapse collapse" aria-labelledby="service-headingFour" data-bs-parent="#accordionService">
-								     	<div class="accordion-body">
-									      	<ul class="service-type">
-									      		<li>Project Scopping</li>
-									      		<li>Research</li>
-									      		<li>UX/UI Design</li>
-									      		<li>Product Design</li>
-									      		<li>Rapid Prototyping</li>
-									      	</ul>
-									      	<p>Maximize your competitive edge in the marketplace by partnering with us to conduct research and design tailored program evaluations.</p>
-									      	<div class="learn_more_main">
-									      		<a href="#" class="learn_more_cta">LEARN MORE</a>
-									      	</div>
-									    </div>
-								    </div>
-								</div> -->
 							</div>
 						</div>
 						<?php endif; ?>
@@ -246,20 +107,7 @@ $author_id=$post->post_author;
 		                   	<div class="tc-logos">
 								<img src="<?php echo $TClogo['url'];?>" alt="<?php echo $TClogo['alt'];?>">
 							</div>
-							<?php endwhile;endif;?>
-		                    <!-- <div class="tc-logos">
-								<img src="<?php echo get_template_directory_uri();?>/assets/images/tc-img-2.png" alt="Clutch">
-							</div>
-		                    <div class="tc-logos">
-								<img src="<?php echo get_template_directory_uri();?>/assets/images/tc-img-3.png" alt="TechBehemoths">
-							</div>
-		                    <div class="tc-logos">
-								<img src="<?php echo get_template_directory_uri();?>/assets/images/tc-img-4.png" alt="GoodFirms">
-							</div>
-		                    <div class="tc-logos">
-								<img src="<?php echo get_template_directory_uri();?>/assets/images/tc-img-5.png" alt="The Manifest">
-							</div> -->
-		                                                    
+							<?php endwhile;endif;?>      
 						</div>
 					</div>
 				</div>
@@ -298,42 +146,6 @@ $author_id=$post->post_author;
 									</div>
 									<?php endwhile;endif;
 									?>
-									<!-- <div class="industries-slide">
-										<div class="industries-icon">
-											<img src="<?php echo get_template_directory_uri();?>/assets/images/industries-icon.png" alt="#">
-										</div>
-										<div class="industries-slide-info">
-											<h3>Energy and Utilities</h3>
-											<p>Our team will create solutions that meet your specific requirements, including business management software, financial accounting, distribution, enterprise content management and web accessibility.</p>
-											<div class="learn_more_main">
-									      		<a href="#" class="learn_more_cta">LEARN MORE</a>
-									      	</div>
-										</div>
-									</div>
-									<div class="industries-slide">
-										<div class="industries-icon">
-											<img src="<?php echo get_template_directory_uri();?>/assets/images/industries-icon.png" alt="#">
-										</div>
-										<div class="industries-slide-info">
-											<h3>Logistics (Transportation)</h3>
-											<p>Our team will create solutions that meet your specific requirements, including business management software, financial accounting, distribution, enterprise content management and web accessibility.</p>
-											<div class="learn_more_main">
-									      		<a href="#" class="learn_more_cta">LEARN MORE</a>
-									      	</div>
-										</div>
-									</div>
-									<div class="industries-slide">
-										<div class="industries-icon">
-											<img src="<?php echo get_template_directory_uri();?>/assets/images/industries-icon.png" alt="#">
-										</div>
-										<div class="industries-slide-info">
-											<h3>eCommerce</h3>
-											<p>Our team will create solutions that meet your specific requirements, including business management software, financial accounting, distribution, enterprise content management and web accessibility.</p>
-											<div class="learn_more_main">
-									      		<a href="#" class="learn_more_cta">LEARN MORE</a>
-									      	</div>
-										</div>
-									</div> -->
 								</div>
 							</div>
 						</div>
@@ -376,17 +188,6 @@ $author_id=$post->post_author;
 												<p><?php echo get_sub_field('info_text');?></p>
 											</div>
 											<?php endwhile;endif;?>
-											<!-- <div class="whychooseus-col">
-												<div class="whychooseus-col-title">
-													<a href="#" class="whychooseus-link">
-														<span class="wcu-lg-font">$Millions</span>
-														<span class="wcu-link">
-															<svg xmlns="http://www.w3.org/2000/svg" width="30.961" height="32.582" viewBox="0 0 30.961 32.582"> <path id="right-arrow" d="M21.138,107.5l-1.3,1.3,5.773,5.773H0v1.835H25.614l-5.773,5.773,1.3,1.3,7.988-7.988Z" transform="translate(-82.35 -46.787) rotate(-50)"/></svg>
-														</span>
-													</a>
-												</div>
-												<p>In Recurring Revenue for our clients.</p>
-											</div> -->
 										</div>
 										<div class="whychooseus-info">
 										<?php if(have_rows('why_choose_info2')):while(have_rows('why_choose_info2')):the_row();?>
@@ -402,17 +203,6 @@ $author_id=$post->post_author;
 												<p><?php echo get_sub_field('info_text');?></p>
 											</div>
 											<?php endwhile;endif;?>
-											<!-- <div class="whychooseus-col">
-												<div class="whychooseus-col-title">
-													<a href="#" class="whychooseus-link">
-														<span class="wcu-lg-font">300+</span>
-														<span class="wcu-link">
-															<svg xmlns="http://www.w3.org/2000/svg" width="30.961" height="32.582" viewBox="0 0 30.961 32.582"> <path id="right-arrow" d="M21.138,107.5l-1.3,1.3,5.773,5.773H0v1.835H25.614l-5.773,5.773,1.3,1.3,7.988-7.988Z" transform="translate(-82.35 -46.787) rotate(-50)"/></svg>
-														</span>
-													</a>
-												</div>
-												<p>More than 300 successfully implemented projects</p>
-											</div> -->
 										</div>
 									</div>	
 								</div>
@@ -430,12 +220,6 @@ $author_id=$post->post_author;
 							<span class="team-lg-font"><?php echo get_sub_field('meet_team_text','option');?></span>
 						</div>
 						<?php endwhile;endif;?>
-						<!-- <div class="team-slide">
-							<span class="team-lg-font">Meet the Team ✺ </span>
-						</div>
-						<div class="team-slide">
-							<span class="team-lg-font">Meet the Team ✺ </span>
-						</div> -->
 					</div>
 					<div class="container">
 						<div class="row align-items-center">
@@ -464,51 +248,6 @@ $author_id=$post->post_author;
 								</div>
 							</div>
 							<?php endwhile;endif;?>
-							<!-- <div class="team-person-info-wp">
-								<div class="team-person-img">
-									<img src="<?php echo get_template_directory_uri();?>/assets/images/team-img-2.png" alt="#">
-								</div>
-								<div class="team-person-info">
-									<span class="name">Sam Selimovic</span>
-									<span class="position">Sales Head</span>
-								</div>
-							</div>
-							<div class="team-person-info-wp">
-								<div class="team-person-img">
-									<img src="<?php echo get_template_directory_uri();?>/assets/images/team-img-3.png" alt="#">
-								</div>
-								<div class="team-person-info">
-									<span class="name">Deep M.</span>
-									<span class="position">Development Head</span>
-								</div>
-							</div>
-							<div class="team-person-info-wp">
-								<div class="team-person-img">
-									<img src="<?php echo get_template_directory_uri();?>/assets/images/team-img-4.png" alt="#">
-								</div>
-								<div class="team-person-info">
-									<span class="name">Smith P.</span>
-									<span class="position">Development Head</span>
-								</div>
-							</div>
-							<div class="team-person-info-wp">
-								<div class="team-person-img">
-									<img src="<?php echo get_template_directory_uri();?>/assets/images/team-img-5.png" alt="#">
-								</div>
-								<div class="team-person-info">
-									<span class="name">Pratik S.</span>
-									<span class="position">Design Head</span>
-								</div>
-							</div>
-							<div class="team-person-info-wp">
-								<div class="team-person-img">
-									<img src="<?php echo get_template_directory_uri();?>/assets/images/team-img-6.png" alt="#">
-								</div>
-								<div class="team-person-info">
-									<span class="name">Bhavin B.</span>
-									<span class="position">Marketing Head</span>
-								</div>
-							</div> -->
 						</div>
 					</div>	
 				</div>
@@ -526,8 +265,6 @@ $author_id=$post->post_author;
 									<?php if(have_rows('case_study_types')):while(have_rows('case_study_types')):the_row();?>
 									<li><a class="case--study-type" href="#"><?php echo get_sub_field('case_study_type');?></a> </li>
 									<?php endwhile;endif;?>
-									<!-- <li><a class="case--study-type" href="#"></a> </li>
-									<li><a class="case--study-type" href="#"></a> </li> -->
 								</ul>
 							</div>	
 						</div>
@@ -553,7 +290,6 @@ $author_id=$post->post_author;
 											<?php if(have_rows('cs_types')):while(have_rows('cs_types')):the_row();?>
 											<li><a class="case--study-type" href="#"><?php echo get_sub_field('cs_type');?></a> </li>
 											<?php endwhile;endif;?>
-											<!-- <li><a class="case--study-type" href="#">UI/UX Design</a> </li> -->
 										</ul>
 									</div>	
 								</div>
@@ -586,7 +322,6 @@ $author_id=$post->post_author;
 											<?php if(have_rows('cs_types2')):while(have_rows('cs_types2')):the_row();?>
 											<li><a class="case--study-type" href="#"><?php echo get_sub_field('cs_type2');?></a> </li>
 											<?php endwhile;endif;?>
-											<!-- <li><a class="case--study-type" href="#">UI/UX Design</a> </li> -->
 										</ul>
 									</div>	
 								</div>
@@ -722,9 +457,6 @@ $author_id=$post->post_author;
 									?>
 							    <button class="nav-link <?php echo $is_active; ?>" id="v-pills-<?php echo $techstack_id; ?>-tab" data-bs-toggle="pill" data-bs-target="#v-pills-<?php echo $techstack_id; ?>" type="button" role="tab" aria-controls="v-pills-<?php echo $techstack_id; ?>" aria-selected="<?php echo $is_active ? 'true' : 'false'; ?>"><?php echo $tab_title; ?></button>
 								<?php $tab_index++; endwhile;?>
-							    <!-- <button class="nav-link" id="v-pills-web-platform-tab" data-bs-toggle="pill" data-bs-target="#v-pills-web-platform" type="button" role="tab" aria-controls="v-pills-web-platform" aria-selected="false">Web Platform</button>
-							    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Database</button>
-							    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Cloud & Devops</button> -->
 							</div>	
 						</div>
 						<div class="ts-tab-content">
@@ -753,248 +485,14 @@ $author_id=$post->post_author;
 								    						<div class="ts-text"><?php echo get_sub_field('techstack_col_link_text');?></div>
 							    						</a>
 							    					</li>
-							    					<!-- <li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/bds_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[BLOC DEVELOPMENT SERVICES]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/mvvm_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[MVVM (BLOC)]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/dds_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[DART DEVELOPMENT SERVICES]</span></div>
-							    						</a>
-							    					</li> -->
 													<?php endwhile;?>
 							    				</ul>
 							    			</div>
 											<?php endwhile;?>
-							    			<!-- <div class="tech-stack-col">
-							    				<div class="tech-stack-col-title">
-							    					<h3>iOS<sup>10 Developers</sup></h3>
-							    				</div>
-							    				<ul>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/coredata-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[COREDATA]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/rest-alamofire-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[REST (ALAMOFIRE)]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/uikit-icon.png" alt="#"> </div>	
-								    						<div class="ts-text"><span>[UIKIT]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/mvvm-i.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[MVVM]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/swift-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[SWIFT]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/rx-swift.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[RXSWIFT]</span></div>
-							    						</a>
-							    					</li>
-							    				</ul>
-							    			</div> -->
 							    		</div>
 							    	</div>
 							    </div>
 								<?php $tab_index++;endwhile;?>
-							    <!-- <div class="tab-pane fade" id="v-pills-web-platform" role="tabpanel" aria-labelledby="v-pills-web-platform-tab">
-							    	<div class="ts-tab-content-main">
-							    		<div class="tech-stack-tabrow">
-							    			<div class="tech-stack-col">
-							    				<div class="tech-stack-col-title">
-							    					<h3>Flutter<sup>6 Developers</sup></h3>
-							    				</div>
-							    				<ul>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/mvvm_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[MVVM (BLOC)]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/dds_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[DART DEVELOPMENT SERVICES]</span></div>
-							    						</a>
-							    					</li>
-							    				</ul>
-							    			</div>
-							    			<div class="tech-stack-col">
-							    				<div class="tech-stack-col-title">
-							    					<h3>iOS<sup>10 Developers</sup></h3>
-							    				</div>
-							    				<ul>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/coredata-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[COREDATA]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/rest-alamofire-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[REST (ALAMOFIRE)]</span></div>
-							    						</a>
-							    					</li>
-							    				
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/swift-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[SWIFT]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/rx-swift.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[RXSWIFT]</span></div>
-							    						</a>
-							    					</li>
-							    				</ul>
-							    			</div>
-							    		</div>
-							    	</div>							    	
-							    </div>
-							    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-							    	<div class="ts-tab-content-main">
-							    		<div class="tech-stack-tabrow">
-							    			<div class="tech-stack-col">
-							    				<div class="tech-stack-col-title">
-							    					<h3>Flutter<sup>8 Developers</sup></h3>
-							    				</div>
-							    				<ul>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/rds_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>rxDart Development Services</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/bds_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[BLOC DEVELOPMENT SERVICES]</span></div>
-							    						</a>
-							    					</li>
-							    				
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/dds_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[DART DEVELOPMENT SERVICES]</span></div>
-							    						</a>
-							    					</li>
-							    				</ul>
-							    			</div>
-							    			<div class="tech-stack-col">
-							    				<div class="tech-stack-col-title">
-							    					<h3>iOS<sup>10 Developers</sup></h3>
-							    				</div>
-							    				<ul>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/coredata-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[COREDATA]</span></div>
-							    						</a>
-							    					</li>
-							    					
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/mvvm-i.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[MVVM]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/swift-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[SWIFT]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/rx-swift.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[RXSWIFT]</span></div>
-							    						</a>
-							    					</li>
-							    				</ul>
-							    			</div>
-							    		</div>
-							    	</div>							    	
-							    </div>
-							    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-							    	<div class="ts-tab-content-main">
-							    		<div class="tech-stack-tabrow">
-							    			<div class="tech-stack-col">
-							    				<div class="tech-stack-col-title">
-							    					<h3>Flutter<sup>8 Developers</sup></h3>
-							    				</div>
-							    				<ul>
-							    					
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/mvvm_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[MVVM (BLOC)]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/dds_icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[DART DEVELOPMENT SERVICES]</span></div>
-							    						</a>
-							    					</li>
-							    				</ul>
-							    			</div>
-							    			<div class="tech-stack-col">
-							    				<div class="tech-stack-col-title">
-							    					<h3>iOS<sup>10 Developers</sup></h3>
-							    				</div>
-							    				<ul>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/coredata-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[COREDATA]</span></div>
-							    						</a>
-							    					</li>
-							    					
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/swift-icon.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[SWIFT]</span></div>
-							    						</a>
-							    					</li>
-							    					<li>
-							    						<a href="#" class="ts-icon-text-link">
-								    						<div class="ts-icon"><img src="<?php echo get_template_directory_uri();?>/assets/images/ts-icon/rx-swift.png" alt="#"> </div>
-								    						<div class="ts-text"><span>[RXSWIFT]</span></div>
-							    						</a>
-							    					</li>
-							    				</ul>
-							    			</div>
-							    		</div>
-							    	</div>							    	
-							    </div> -->
 							</div>
 						</div>
 						<?php endif;?>
@@ -1171,46 +669,6 @@ $author_id=$post->post_author;
 								<h2 class="white_text">Empower Your Growth: Partner with Us Today!</h2>
 							</div>
 								<?php echo do_shortcode('[contact-form-7 id="2266" title="Footer Contact Form"]');?>
-								<!-- <div class="form-group-main">
-									<div class="row">
-										<div class="col-md-6 col-sm-12 col-12">
-											<div class="form-group">
-			                                    <input type="text" placeholder="First Name" class="form-control">
-			                                </div>
-			                            </div>  
-			                            <div class="col-md-6 col-sm-12 col-12">
-											<div class="form-group">
-			                                    <input type="text" placeholder="Last Name" class="form-control">
-			                                </div>
-			                            </div> 
-										<div class="col-md-6 col-sm-12 col-12">		                                
-			                                <div class="form-group">
-			                                    <input type="email" placeholder="Email" class="form-control">
-			                                </div>
-			                            </div>
-			                            <div class="col-md-6 col-sm-12 col-12">
-			                                <div class="form-group">
-			                                    <input type="tel" placeholder="Phone" class="form-control">
-			                                </div>
-			                            </div>
-			                            <div class="col-md-12 col-sm-12 col-12">
-			                                <div class="form-group">
-			                                    <textarea class="form-control" placeholder="Discuss about your project…"></textarea>
-			                                </div>		
-			                            </div>
-									</div>
-									<div class="row flex-row-reverse">
-										<div class="col-md-5 col-sm-12 col-12">
-											<div class="form-send-btn text-md-end">
-			                                    <button class="btn">SEND MESSAGE</button>
-			                                </div>
-			                            </div> 
-										<div class="col-md-7 col-sm-12 col-12">
-											<p class="white_text">We will add your info to our CRM for contacting you regarding your request. For more info please consult our privacy policy.</p>
-			                            </div>  
-			                            
-									</div>
-	                            </div> -->
 						</div>
 						
 					</div>
