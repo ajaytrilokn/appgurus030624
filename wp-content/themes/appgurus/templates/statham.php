@@ -9,6 +9,8 @@ get_header();
 <section id="statham">
     <section class="container">
         <h1>Hello Jason Statham</h1>
+        <h2>Hello Dwany Johnson</h2>
+        <h3>Hello Vin Diesel</h3>
     </section>
 </section>
 </div>
