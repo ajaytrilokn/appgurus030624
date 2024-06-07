@@ -49,9 +49,9 @@ get_header();
             <div class="s-clients-logo-main">
               <div class="s-logo-slider clients-logo-inner">
                 <?php 
-                if(have_rows('trusted_company_logo','option')):
-                  while(have_rows('trusted_company_logo','option')):the_row();
-                    $sponserImg = get_sub_field('trusted_company_logo_image','option');
+                if(have_rows('sponsors_images','option')):
+                  while(have_rows('sponsors_images','option')):the_row();
+                    $sponserImg = get_sub_field('s_image','option');
                 ?>
                 <div class="s-client-logo-wrap">
                   <div class="s-client-logo">
