@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    
 
     $('.clients-logo-inner').slick({
         dots: false,
@@ -223,6 +224,8 @@ $(document).ready(function() {
 
 
 });
+
+
 
 // Smoothly Scroll to contact form and hide the id
 
