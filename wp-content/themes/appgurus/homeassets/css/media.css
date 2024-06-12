@@ -102,7 +102,7 @@
 	h1 { font-size:80px;}
 	h2 { font-size:60px;}
 	h3 { font-size:45px;}
-	h4 { font-size:28px;}
+	h4 { font-size:26px;}
 	h5 { font-size:20px;}  
 	h6 { font-size:18px;}
 
@@ -125,13 +125,16 @@
 	.review_logo_rating .review_rating_main{display:flex;flex-direction:column;margin-top:3px;}
 	.review_logo_rating .review__logo{ margin-right:0px; }
 
+	.awards_section.technology--stack-sec, .values-vision-sec.technology--stack-sec {padding: 50px 0px; }
+	.portfolio-p-row .portfolio-p-col .portfolio_img {border-radius: 30px; }
+
 
 }
 
 
 @media (max-width: 1399px) { 
 
-.banner-sec .banner-wrap{padding:35px 0px 20px;}
+.banner-sec .banner-wrap{padding:35px 0px 35px;}
 .industries-slider-main .slick-list.draggable {padding-right: 10%; }
 .whychooseus-col .wcu-lg-font {font-size: 36px; }
 .testimonials--slider ul.slick-dots li button {padding: 0px 15px 12px; font-size: 16px; }
@@ -152,9 +155,10 @@
 	h1 { font-size:60px;}
 	h2 { font-size:40px;}
 	h3 { font-size:36px;}
-	h4 { font-size:30px;}
+	h4 { font-size:26px;}
 	h5 { font-size:20px;}  
 	h6 { font-size:18px;}
+
 
 	p{font-size:14px;line-height:26px;}
 
@@ -173,7 +177,7 @@
 	.accordion-service h2 .accordion-button{font-size:36px;}
 	.learn_more_main a{font-size:16px;}
 	.tc-logos-row{gap:30px;}
-	.tc-logos-main{padding:25px 0px 55px;}
+	.tc-logos-main{padding:40px 0px 50px;}
 	.case--study-orange-box .csob-text .project-conut{font-size:38px;}
 	.case--study-orange-box .csob-text .project-text{font-size:22px;line-height:32px;}
 	.case--study-box .case--study-info .case--study-link{font-size:32px;line-height:1.2;}
@@ -200,9 +204,9 @@
 @media (max-width: 1199.98px) { 
 
 	h1 { font-size:55px;}
-	h2 { font-size:44px;}
+	h2 { font-size:40px;}
 	h3 { font-size:36px;}
-	h4 { font-size:28px;}
+	h4 { font-size:26px;}
 	h5 { font-size:20px;}  
 	h6 { font-size:18px;}
 	p{font-size: 14px;}
@@ -270,9 +274,9 @@
 	p{font-size: 15px;}
 	
 
-	.banner-sec .banner-wrap{padding:60px 0px;}
+	.banner-sec .banner-wrap{padding:40px 0px;}
 	.banner-sec .banner-wrap .banner-text .banner-btn{margin-top:30px;margin-bottom:35px;}
-
+	.banner-sec {padding-top: 70px; }
 
 
 
@@ -341,8 +345,9 @@
 	.team-sec-top p.dots-point:before{width:10px;height:10px;top:9px;}
 	.team-sec-top .team-sub-text{font-size:16px;line-height:24px;}
 
-
-
+	.portfolio-p-row .portfolio-p-col .portfolio-caption{bottom:0px;flex-direction:column;padding:15px;}
+	.portfolio-p-row .portfolio-p-col .portfolio_img{border-radius:15px;}
+	.portfolio-p-col .portfolio-caption .project-name h4 {font-size: calc(3vw); }
 
 }
 
@@ -356,8 +361,8 @@
 	h1 { font-size:45px; }
 	h2 { font-size:36px; }
 	h3 { font-size:28px; }
-	h4 { font-size:24px; }
-	h5 { font-size:22px; }  
+	h4 { font-size:22px; }
+	h5 { font-size:20px; }  
 	h6 { font-size:18px; }
 	p{font-size: 14px;}
 	
@@ -365,7 +370,7 @@
 
 	
 	.btn {padding: 9px 15px; font-size: 14px; min-width: 130px; }
-	.banner-sec .banner-wrap{padding-bottom:20px;}
+	.banner-sec .banner-wrap{padding-bottom:50px;}
 	.form-group{margin-bottom:20px;}
 
 
@@ -403,7 +408,24 @@
 
 	.client-logo img {max-width: 120px; }
 
+	.tc-logos-main {padding: 20px 0px 60px; } 
+	.banner-sec {min-height: calc(100vh - 90px); }
 
+	.values-vision-col ul.numbers-count li:before{min-width:45px;font-size:18px;}
+	.values-vision-col ul.numbers-count li p{width:calc(100% - 45px);}
+	.values-vision-col ul.numbers-count{gap:35px;margin-top:35px;}
+	.values-vision-col ul.numbers-count li{width:calc(50% - 20px);}
+	.achievements-wrap .achievements-logo-inner {gap: 40px; }
+	.awards_section.technology--stack-sec, .values-vision-sec.technology--stack-sec {padding-top: 25px; }
+
+	.portfolio-p-row .portfolio-p-col .portfolio-caption ul.case--study-type-inner li a {font-size: 8px; padding: 3px 8px; }
+	.banner-sec.banner-sec-v2 .banner-count-main {margin-top: 20px; }
+	.portfolio-p-row.grid .grid-item, .portfolio-p-row.grid .grid-sizer {width: 100%;}
+
+	.filter-button-group{padding-left:0px;gap:10px 8px;}
+	.filter-button-group .btn{padding:6px 18px;font-size:11px;}
+
+	
 }
 
 /*=========================================================
@@ -430,6 +452,12 @@ Extra small devices (portrait phones, less than 576px)
 	.contact_us_sec{padding-top:40px;border-top-left-radius:25px;border-top-right-radius:25px;}
 	.contact_us_form-title h2{font-size:28px;line-height:38px;margin-bottom:25px;}
 
+	.client-logo {padding: 10px; }
+	.achievements-logo-inner .achievements-logo-wrap {width: calc(50% - 40px); } 
+	.achievements-wrap .achievements-logo-inner {justify-content: center; }
+
+	.values-vision-col ul.numbers-count li{width:100%;}
+	.values-vision-col ul.numbers-count{gap:15px;}
 
 }
 
@@ -439,7 +467,7 @@ Extra small devices (portrait phones, less than 576px)
 	h1 { font-size:38px; }
 	h2 { font-size:28px; }
 	h3 { font-size:24px; }
-	h4 { font-size:22px; }
+	h4 { font-size:20px; }
 	h5 { font-size:18px; }  
 	h6 { font-size:16px; }
 	p{font-size: 14px;} 

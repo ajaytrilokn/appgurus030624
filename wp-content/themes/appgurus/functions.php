@@ -211,7 +211,7 @@ function twentytwenty_register_scripts() {
 	if (!is_page_template( 'templates/free-consultation.php'))
 	{
 
-		if (is_page_template( 'templates/home-update.php' ))
+		if (is_page_template( 'templates/home-update.php')||is_page_template('templates/about-us-update.php' )||is_page_template('templates/case-studies.php'))
 		{ 
 			wp_enqueue_style( 'appgurus-fonts-awesome', get_template_directory_uri() . '/homeassets/font/font-awesome/css/font-awesome.min.css' );
 			
@@ -228,6 +228,8 @@ function twentytwenty_register_scripts() {
 			wp_enqueue_script( 'appgurus-updated-bootstrap', get_template_directory_uri() . '/homeassets/js/bootstrap-5.0.2/js/bootstrap.min.js', array(), '1.0',  true );
 			wp_enqueue_script( 'appgurus-updated-animate', get_template_directory_uri() . '/homeassets/js/css3-animate-it.js', array(), '1.0',  true );
 			wp_enqueue_script( 'appgurus-updated-slick', get_template_directory_uri() . '/homeassets/js/slick.min.js', array(), '1.0',  true );
+			wp_enqueue_script( 'appgurus-updated-isotop', get_template_directory_uri() . '/homeassets/js/isotope.pkgd.min.js', array(), '1.0',  true );
+			wp_enqueue_script( 'appgurus-updated-type', get_template_directory_uri() . '/homeassets/js/typed.min.js', array(), '1.0',  true );
 			wp_enqueue_script( 'appgurus-updated-custom', get_template_directory_uri() . '/homeassets/js/custom.js', array(), '1.0',  true );
 		}
 		else
@@ -1104,7 +1106,9 @@ function case_studies_post_type() {
 		'exclude_from_search'   => true,
 		'publicly_queryable'    => true,
 		'rewrite'               => true,
-        'capability_type'       => 'post'
+        'capability_type'       => 'post',
+		'taxonomies'  => array( 'category' ),
+
 	);
 	register_post_type( 'case_study', $args );
 

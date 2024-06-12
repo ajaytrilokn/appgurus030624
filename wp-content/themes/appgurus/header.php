@@ -117,11 +117,89 @@ if (!is_page_template( 'templates/thankyou-page.php' ))
     </div> -->
     <!-- loader end -->
     <?php 
-  if (is_page_template( 'templates/home-update.php' ))
+  if (is_page_template( 'templates/home-update.php')||is_page_template('templates/about-us-update.php')||is_page_template('templates/case-studies.php'))
   { 
+    if(!(is_page_template('templates/home-update.php')))
+    {
+      $whitebg = 'header-bg-white';
   ?>
   <!-- header start -->
   <header class="site-header">
+    <div class="header-main nav-area <?php echo $whitebg;?>">
+        <div class="header-inner-main">
+          <div class="container">
+              <div class="navbar-container">
+
+                <nav class="navbar navbar-dark navbar-expand-lg">
+                    
+                    <div class="header-logo">
+                      <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                        <img class="header-logo-1" src="<?php echo get_template_directory_uri();?>/homeassets/images/appgurus-white.png" alt="header-logo">
+                        <img class="header-logo-2" src="<?php echo get_template_directory_uri();?>/homeassets/images/appgurus-black.png" alt="header-logo">
+                      </a>
+                    </div>
+
+                    <div class="header-inner d-flex">
+                      <div class="header-right">
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                          <div class="collapse header-menu navbar-collapse " id="navbarNavDropdown">
+                            <div class="header-menu-inner">
+                              <ul class="navbar-nav">
+                                <?php
+                                  $servicePages = array('digital-services-australia','flutter-app-development-brisbane-australia');
+                                ?>
+                                <li class="nav-item sm_menu_main ">
+                                  <div class="main-menu" id="menu_servece1">
+                                       <a href="<?php echo site_url( '/digital-services-australia/'); ?>">Services</a>
+                                    <button class="dropdown-click collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#servmenu_collapse1"
+                                    aria-expanded="false" aria-controls="servmenu_collapse1">
+                                    <i class="fa fa-angle-down"></i>
+                                    </button>
+                                  </div>
+                                  <div id="servmenu_collapse1" class="collapse sdropdown-wp" aria-labelledby="menu_servece1">
+                                    <div class="sdropdown-main accordion">
+                                    <ul>
+                                      <li class="sub-menu-link"> <a href="<?php echo site_url( '/digital-services-australia/flutter-app-development-brisbane-australia/'); ?>">Flutter App Development</a></li>
+                                      <li class="sub-menu-link"><a href="<?php echo site_url( '/digital-services-australia/react-native-app-development/'); ?>">React Native App Development</a></li>
+                                      <li class="sub-menu-link"><a href="<?php echo site_url( '/digital-services-australia/android-app-development/'); ?>">Android App Development</a></li>
+                                      <li class="sub-menu-link"><a href="<?php echo site_url( '/digital-services-australia/ios-app-development/'); ?>">iOS App Development</a></li>
+                                      <li class="sub-menu-link"><a href="<?php echo site_url( '/digital-services-australia/native-app-development/'); ?>">Native App Development</a></li>
+                                      <li class="sub-menu-link"><a href="<?php echo site_url( '/digital-services-australia/hybrid-app-development/'); ?>">Hybrid App Development</a></li>
+                                      <li class="sub-menu-link"><a href="<?php echo site_url( '/digital-services-australia/ui-ux-design-services/'); ?>">UI/UX Design Services</a></li>
+                                    </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="nav-item <?php echo ($slug == 'about-app-development-australia')?'active':''; ?>"><a href="<?php echo esc_url( home_url( 'about-app-development-australia/' ) ); ?>">About Us</a></li>
+                                <li class="nav-item <?php echo ($slug == 'portfolio-app-development-company-australia')?'active':''; ?>"><a href="<?php echo esc_url( home_url( 'portfolio-app-development-company-australia/' ) ); ?>">Portfolio </a></li>
+                                <li class="nav-item <?php echo ($slug == 'app-development-and-app-marketing-tips')?'active':''; ?>"><a href="<?php echo esc_url( home_url( 'app-development-and-app-marketing-tips/' ) ); ?>">Blogs</a></li>
+                                <li class="nav-item <?php echo ($slug == 'free-consultation')?'active':''; ?>"><a href="" data-scroll-to="#contactnew">Contact Us</a></li>
+                              </ul>
+
+                              <div class="header-btn-main">
+                                <a href="tel:1300 699 571" class="call-link"><svg xmlns="http://www.w3.org/2000/svg" width="25.141" height="25.142" viewBox="0 0 25.141 25.142"> <g id="telephone" transform="translate(-0.006)"> <g id="Group_6" data-name="Group 6" transform="translate(0.006)"> <path id="Path_1" data-name="Path 1" d="M19.12,60.355a1.762,1.762,0,0,0-2.663,0c-.623.617-1.245,1.235-1.857,1.863a.367.367,0,0,1-.513.094c-.4-.22-.832-.4-1.219-.638a19.314,19.314,0,0,1-4.656-4.238,11.031,11.031,0,0,1-1.669-2.673.383.383,0,0,1,.094-.492c.623-.6,1.229-1.219,1.842-1.836a1.768,1.768,0,0,0-.005-2.726c-.487-.492-.973-.973-1.46-1.465-.5-.5-1-1.01-1.507-1.507a1.773,1.773,0,0,0-2.663.005c-.628.617-1.229,1.25-1.868,1.857a3.032,3.032,0,0,0-.952,2.046,8.667,8.667,0,0,0,.67,3.73,22.667,22.667,0,0,0,4.023,6.7,24.9,24.9,0,0,0,8.245,6.451,11.925,11.925,0,0,0,4.567,1.329A3.347,3.347,0,0,0,20.4,67.764c.534-.6,1.135-1.141,1.7-1.711a1.78,1.78,0,0,0,.01-2.71Q20.622,61.844,19.12,60.355Z" transform="translate(-0.006 -43.724)" fill="#fff"/> <path id="Path_2" data-name="Path 2" d="M243.525,103.44l1.931-.33a8.666,8.666,0,0,0-7.33-7.11l-.272,1.941a6.7,6.7,0,0,1,5.671,5.5Z" transform="translate(-225.41 -90.977)" fill="#fff"/> <path id="Path_3" data-name="Path 3" d="M251.188,4.07A14.235,14.235,0,0,0,243.026,0l-.272,1.941a12.421,12.421,0,0,1,10.511,10.186l1.931-.33A14.339,14.339,0,0,0,251.188,4.07Z" transform="translate(-230.054)" fill="#fff"/> </g> </g> </svg> 1300 699 571</a>
+                                <a href="javascript:void(0)" class="btn header-btn contact-us-click">Get in Touch</a>
+                            </div>
+
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+        </div>
+    </div>
+  </header> 
+  <?php }else
+  {
+    ?>
+    <header class="site-header">
     <div class="header-main nav-area">
         <div class="header-inner-main">
           <div class="container">
@@ -193,6 +271,9 @@ if (!is_page_template( 'templates/thankyou-page.php' ))
         </div>
     </div>
   </header> 
+  <?php
+  }
+  ?>
   <!-- header End -->
   <?php } else {  ?>
 <header>
