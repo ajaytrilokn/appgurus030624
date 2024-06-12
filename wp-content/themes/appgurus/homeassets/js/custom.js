@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-    
-
     $('.clients-logo-inner').slick({
         dots: false,
         arrows: false,
@@ -156,7 +154,13 @@ $(document).ready(function() {
         // speed: 2000,
     });
 
-
+    var typed = new Typed("#typed", {
+        stringsElement: '#typed-strings',
+        typeSpeed: 40,
+        loop: true,
+        backDelay: 3000,
+        backSpeed: 5,
+    });
 
 
 
@@ -215,9 +219,7 @@ $(document).ready(function() {
       }); 
 
     });
-
-
-
+	
     // top nav header scroll active class add end
 
 
@@ -225,23 +227,35 @@ $(document).ready(function() {
 
 });
 
+$(function() {
 
-
-// Smoothly Scroll to contact form and hide the id
-
-jQuery(document).ready(function($) {
-    $('a[data-scroll-to]').on('click', function(event) {
-        var target = $(this).data('scroll-to');
-        if (target !== '') {
-            event.preventDefault(); // Prevent the default behavior of the anchor tag
-            $('html, body').animate({
-                scrollTop: $(target).offset().top
-            }, 2000, function() {
-                // After scrolling, update the URL with a blank hash using history.pushState
-                history.pushState(null, null, ' ');
-            });
+    $(".grid").isotope({
+        itemSelector: ".grid-item",
+        percentPosition: true,
+        masonry: {
+            // use outer width of grid-sizer for columnWidth
+            columnWidth: ".grid-sizer"
         }
     });
-});
-
+    
+    // filter items on button click
+    $(".filter-button-group").on("click", "button", function() {
+        var filterValue = $(this).attr("data-filter");
+        $(".grid").isotope({
+            filter: filterValue
+        });
+    
+        $this = $(this);
+        $buttonGroup = $this.parents('.button-group');
+        if ($this) {
+            $buttonGroup.find('.is-checked').removeClass('is-checked');
+            $this.addClass('is-checked');
+        } else {
+            $buttonGroup.find('*').removeClass('is-checked');
+        }
+    
+    });
+    
+    
+    });
 

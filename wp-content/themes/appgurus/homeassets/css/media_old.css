@@ -347,7 +347,7 @@
 
 	.portfolio-p-row .portfolio-p-col .portfolio-caption{bottom:0px;flex-direction:column;padding:15px;}
 	.portfolio-p-row .portfolio-p-col .portfolio_img{border-radius:15px;}
-	.portfolio-p-col .portfolio-caption .project-name h4 {font-size: calc(3vw); }
+
 
 }
 
@@ -421,11 +421,6 @@
 	.portfolio-p-row .portfolio-p-col .portfolio-caption ul.case--study-type-inner li a {font-size: 8px; padding: 3px 8px; }
 	.banner-sec.banner-sec-v2 .banner-count-main {margin-top: 20px; }
 	.portfolio-p-row.grid .grid-item, .portfolio-p-row.grid .grid-sizer {width: 100%;}
-
-	.filter-button-group{padding-left:0px;gap:10px 8px;}
-	.filter-button-group .btn{padding:6px 18px;font-size:11px;}
-
-	
 }
 
 /*=========================================================
