@@ -38,8 +38,7 @@ get_header();
 				</div>
 			</section>
 			
-
-      <section class="portfolio-p-sec">
+<!-- <section class="portfolio-p-sec">
     <div class="portfolio-main">
         <div class="container">
             <div class="portfolio-filters-main mb-3">
@@ -88,6 +87,78 @@ get_header();
                         <?php endwhile; ?>
                     <?php endif; ?>
 
+                </div>
+            </div>
+        </div>
+    </div>
+       </section> -->
+<?php
+// Fetch all categories for the portfolio post type
+$categories = get_categories(array(
+    'taxonomy' => 'category',
+    'post_type' => 'case_study',
+    'hide_empty' => false,
+));
+?>
+
+<section class="portfolio-p-sec">
+    <div class="portfolio-main">
+        <div class="container">
+            <div class="portfolio-filters-main mb-3">
+                <div class="button-group filter-button-group" id="filters">
+                    <button class="btn btn-primary" data-filter="*">All</button>
+                    <?php foreach ($categories as $category) : ?>
+                        <button class="btn btn-primary" data-filter=".<?php echo $category->slug; ?>"><?php echo $category->name; ?></button>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <div class="portfolio-p-row-main">
+                <div class="portfolio-p-row grid">
+                    <div class="grid-sizer"></div>
+                    <?php
+                    $args = array(
+                        'post_type' => 'case_study',
+                        'posts_per_page' => -1,
+                    );
+                    $query = new WP_Query($args);
+                    if ($query->have_posts()) : 
+                        while ($query->have_posts()) : $query->the_post();
+                            $categories = get_the_category();
+                            $category_classes = '';
+                            foreach ($categories as $category) {
+                                $category_classes .= ' ' . $category->slug;
+                            }
+                    ?>
+                        <div class="grid-item<?php echo $category_classes; ?>">
+                            <div class="portfolio-p-col">
+                                <a href="<?php the_permalink(); ?>" class="portfolio_img_link">
+                                    <?php if (has_post_thumbnail()) : ?>
+                                        <?php the_post_thumbnail('full', array('class' => 'portfolio_img')); ?>
+                                    <?php endif; ?>
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="project-name"><h4><?php the_title(); ?></h4></div>
+                                    <div class="cs--type-wp">
+                                        <ul class="case--study-type-inner">
+                                            <?php
+                                            // Example of additional metadata or taxonomies
+                                            $tags = get_the_tags();
+                                            if ($tags) :
+                                                foreach ($tags as $tag) : ?>
+                                                    <li><a class="case--study-type" href="<?php echo get_tag_link($tag->term_id); ?>"><?php echo $tag->name; ?></a></li>
+                                                <?php endforeach;
+                                            endif;
+                                            ?>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php
+                        endwhile;
+                        wp_reset_postdata();
+                    endif;
+                    ?>
                 </div>
             </div>
         </div>
@@ -168,7 +239,26 @@ get_header();
 
 
 			<!-- Content End -->
+			<script type="text/javascript">
+ jQuery(document).ready(function($) {
+    var $grid = $('.grid').isotope({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        masonry: {
+            columnWidth: '.grid-sizer'
+        }
+    });
 
+    $('.filter-button-group').on('click', 'button', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+        $('.filter-button-group button').removeClass('active');
+        $(this).addClass('active');
+    });
+});
+
+
+</script>
 <?php
 
 get_footer();
