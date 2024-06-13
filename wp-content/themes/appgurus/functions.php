@@ -1107,7 +1107,8 @@ function case_studies_post_type() {
 		'publicly_queryable'    => true,
 		'rewrite'               => true,
         'capability_type'       => 'post',
-		'taxonomies'  => array( 'category' ),
+		'taxonomies'  => array( 'category','post_tag'),
+		
 
 	);
 	register_post_type( 'case_study', $args );
