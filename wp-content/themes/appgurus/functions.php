@@ -261,7 +261,7 @@ function twentytwenty_register_scripts() {
 	{ 
 		wp_enqueue_script( 'appgurus-homecustomjs', get_template_directory_uri() . '/js/customhome.js', array(), '1.0',  true );
 	}
-	if (!is_page_template( 'templates/thankyou-page.php' ) && !is_page_template( 'templates/free-consultation.php' ))
+	if (!is_page_template( 'templates/thankyou-page.php' ) && !is_page_template( 'templates/free-consultation.php' ) && !is_page_template('templates/home-update.php') && !is_page_template('templates/about-us-update.php') && !is_page_template('templates/case-studies.php'))
 	{
 		wp_enqueue_script( 'appgurus-custom', get_template_directory_uri() . '/js/custom.js', array(), '1.0',  true );
 	}	
