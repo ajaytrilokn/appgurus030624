@@ -1,6 +1,6 @@
 <?php
 	/**
-	* The template for displaying the footer
+	* The template for displaying the foote
 	*
 	* Contains the opening of the #site-footer div and all content after.
 	*
