@@ -5,7 +5,7 @@ Template Name:Categories Tab
 get_header();
 ?>
 
-<!-- <style>
+<style>
     .tab {
         display: inline-block;
         padding: 10px;
@@ -23,7 +23,7 @@ get_header();
     .active-content {
         display: block;
     }
-</style> -->
+</style>
 
 <div id="tabs" class="d-flex justify-content-center align-items-center">
     <?php

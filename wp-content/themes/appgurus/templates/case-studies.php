@@ -106,7 +106,7 @@ $categories = get_categories(array(
         <div class="container">
             <div class="portfolio-filters-main mb-3">
                 <div class="button-group filter-button-group" id="filters">
-                    <button class="btn btn-primary" data-filter="*">All</button>
+                    <button class="btn btn-primary is-checked" data-filter="*">All</button>
                     <?php foreach ($categories as $category) : ?>
                         <button class="btn btn-primary" data-filter=".<?php echo $category->slug; ?>"><?php echo $category->name; ?></button>
                     <?php endforeach; ?>
@@ -121,6 +121,7 @@ $categories = get_categories(array(
                         'posts_per_page' => -1,
                     );
                     $query = new WP_Query($args);
+					$count = 0;
                     if ($query->have_posts()) : 
                         while ($query->have_posts()) : $query->the_post();
                             $categories = get_the_category();
@@ -128,8 +129,13 @@ $categories = get_categories(array(
                             foreach ($categories as $category) {
                                 $category_classes .= ' ' . $category->slug;
                             }
+							$first_post_class = '';
+                            if ($count == 0) {
+                                $first_post_class = 'w-100'; // Add your desired class for the first post
+                            }
+                            $count++;
                     ?>
-                        <div class="grid-item<?php echo $category_classes; ?>">
+                        <div class="grid-item<?php echo $category_classes;?> <?php echo $first_post_class;?>">
                             <div class="portfolio-p-col">
                                 <a href="<?php the_permalink(); ?>" class="portfolio_img_link">
                                     <?php if (has_post_thumbnail()) : ?>
@@ -249,13 +255,28 @@ $categories = get_categories(array(
         }
     });
 
+    // Add 'first-post' class to the first item initially
+    $('.grid-item.first-post').addClass('is-first');
+
+    // Set 'active' class to the 'All' button by default
+    $('.filter-button-group button[data-filter="*"]').addClass('active');
+
     $('.filter-button-group').on('click', 'button', function() {
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({ filter: filterValue });
+
+        // Remove 'is-first' class from all items
+        $('.grid-item').removeClass('is-first');
+
+        // Add 'is-first' class to the first item of the filtered set
+        $('.grid').find(filterValue).eq(0).addClass('is-first');
+
+        // Toggle 'active' class for filter buttons
         $('.filter-button-group button').removeClass('active');
         $(this).addClass('active');
     });
 });
+
 
 
 </script>
